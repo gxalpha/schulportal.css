@@ -4,7 +4,10 @@
 }
 
 .allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle {
-    color: var(--orange-color);
-    /* border-color: var(--orange-button-color) !important; */
+    color: var(--orange-color) !important;
+    border-color: var(--orange-color) !important;
     z-index: 10 !important;
+}
+.allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle small {
+    color: var(--orange-color) !important;
 }
