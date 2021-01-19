@@ -2,3 +2,9 @@
 .allButFooter #content .col-md-12 {
     margin-bottom: 10px !important;
 }
+
+.allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle {
+    color: var(--orange-color);
+    /* border-color: var(--orange-button-color) !important; */
+    z-index: 10 !important;
+}
