@@ -1,5 +1,4 @@
-/* Notenübersicht*/
-/* Rand, Elevation etc. */
+/* Elevation, Formatting: Notenübersicht */
 .allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped {
     border: 1px solid var(--border-color) !important;
     border-radius: 3px !important;
@@ -7,46 +6,51 @@
     box-shadow: var(--default-elevation) !important;
 }
 
-/* Notenübersicht kann verschiedene Klassen haben: Nichts für normales, "success" für Endnoten und "warning" für Zwischennoten */
-/* Färbt die End- und Zwischennoten */
+/* Farbe: End- und Zwischennoten in Notenübersicht */
 .allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped > tbody > tr.success > td,
 .allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped > tbody > tr.warning > td {
     background-color: var(--dark-gray) !important;
 }
 
+/* Formatting: Notenzahl */
 .allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped > tbody td .badge {
     color: var(--font-color) !important;
     background-color: var(--light-gray) !important;
     border: 1px solid var(--border-color) !important;
 }
 
-/* Färbt Anhänge */
+/* Farbe: Anhänge in Tabellenelement in "Historie" */
 .allButFooter #old .alert.alert-info {
     background-color: var(--light-gray) !important;
     border: none !important;
 }
 
-/* Färbt Knöpfe in Kursmappen-Details: */
-/* "Rückgängig-Pfeil" -> Wieder als unerledigt markieren */
+/* Farbe: "Rückgängig-Pfeil"-Knopf in Tabellenelement in "Historie" */
 .allButFooter .btn.btn-default.btn-xs {
     background-color: var(--homework-undone-color) !important;
     color: var(--font-color) !important;
     border: none !important;
 }
 
-/* "Haken" -> Als erledigt markieren */
+/* Farbe: "Haken"-Knopf in Tabellenelement in "Historie" */
 .allButFooter .btn.btn-success.btn-xs {
     background-color: var(--homework-done-color) !important;
     color: var(--font-color) !important;
     border: none !important;
 }
 
-/* "Hausaufgabe unerledigt" */
+/* Farbe: "Hausaufgabe unerledigt"-Label in Tabellenelement in "Historie" */
 .allButFooter .label.label-danger {
     background-color: var(--homework-undone-color) !important;
 }
 
-/* "Hausaufgabe erledigt" */
+/* Farbe: "Hausaufgabe erledigt"-Label in Tabellenelement in "Historie" */
 .allButFooter .hidden-print.label.label-success {
     background-color: var(--homework-done-color) !important;
 }
+
+/* Farbe: Text in Dateiabgabe-Dropdown-Menü in Tabellenelement */
+.allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle small {
+    color: var(--orange-color) !important;
+}
+

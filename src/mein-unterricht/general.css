@@ -1,13 +1,11 @@
-/* Sorgt für Abstand zwischen dem Auswahl-Menü und dem Inhalt */
+/* Formatting: Abstand zwischen Auswahlleiste und Inhalt der Seite */
 .allButFooter #content .col-md-12 {
     margin-bottom: 10px !important;
 }
 
+/* Farbe: Border von Dateiabgabe-Menü in Tabellenelement in "Aktuelle Einträge" und Border von Dateiabgabe-Dropdown-Menü in Tabellenelement in Kursmappen-Details */
 .allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle {
     color: var(--orange-color) !important;
     border-color: var(--orange-color) !important;
     z-index: 10 !important;
-}
-.allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle small {
-    color: var(--orange-color) !important;
 }

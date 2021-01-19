@@ -1,4 +1,4 @@
-/* Farbe: Standardhintergrund */
+/* Farbe: Überall */
 .allButFooter {
     background-color: var(--light-gray);
 }
@@ -115,7 +115,7 @@
 }
 
 
-/* Entfernt: Footer */
+/* Entfernen: Footer */
 .allButFooter ~ .hidden-print.footer {
     background-color: var(--light-gray) !important;
     font-size: 0 ! important;
@@ -123,7 +123,7 @@
     border-top: 5px solid var(--light-gray) !important;
 }
 
-/* Entfernt: Schulportal-Logo (Footer) */
+/* Entfernen: Schulportal-Logo (Footer) */
 body > div.hidden-print.footer > div.row.visible-lg.visible-md > div > table > tbody > tr > td:nth-child(1) > a > img {
     object-position: -999999px 999999px !important;
 }

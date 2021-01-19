@@ -1,15 +1,4 @@
-/* Entfernt den unnötigen Tabellenkopf */
-.allButFooter .tab-content #aktuell thead {
-    display: none !important;
-}
-
-/* Entfernt den Drucken-Knopf (Bitte was, es gibt einen Drucken-Knopf?!) */
-.allButFooter .btn.btn-default.btn-xs.printable {
-    display: none;
-    visibility: hidden;
-}
-
-/* Sorgt für Elevation etc */
+/* Elevation: Tabelle */
 .allButFooter .tab-content #aktuell table {
     box-shadow: var(--default-elevation) !important;
     border: 1px solid var(--border-color) !important;
@@ -17,24 +6,33 @@
     border-collapse: separate !important;
 }
 
-/* Obersten weißen Strich entfernen */
+/* Entfernen: Tabellenkopf */
+.allButFooter .tab-content #aktuell thead {
+    display: none !important;
+}
+
+/* Entfernen: Obere Border des ersten Tabellenelements */
 .allButFooter .tab-content #aktuell tbody > tr:first-child > td {
     border-top: none !important;
 }
 
+/* Entfernen: Drucken-Knopf in Tabellenelement */
+.allButFooter .btn.btn-default.btn-xs.printable {
+    display: none;
+    visibility: hidden;
+}
 
-/* Färbt Knöpfe und Labels */
-/* Rand um den Hausaufgaben-Text */
+/* Farbe: Border um die Hausaufgaben-Beschreibung im Tabellenelement */
 .allButFooter .markup.text.realHomework {
     border: 1px solid var(--homework-undone-color) !important;
 }
 
-/* "Hausaufgabe" -> unerledigt */
+/* Farbe: "Hausaufgabe"-Label über Hausaufgaben-Beschreibung im Tabellenelement */
 .allButFooter .label.label-success.title {
     background-color: var(--homework-undone-color) !important;
 }
 
-/* "erledigt" */
+/* Farbe: Hausaufgabe "erledigt"-Label über Hausaufgaben-Beschreibung im Tabellenelement */
 .allButFooter .done.label.label-default {
     background-color: var(--homework-done-color) !important;
 }

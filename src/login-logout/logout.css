@@ -6,7 +6,7 @@
     color: var(--font-color) !important;
 }
 
-/* Formatierung: Inhalt Oberes Fenster */
+/* Formatting: Inhalt von oberem Fenster */
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-heading,
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-body,
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-title {
@@ -16,7 +16,7 @@
     color: var(--font-color) !important;
 }
 
-/* Farbe: Oberes Fenster Power Button */
+/* Farbe: Power-Button von oberem Fenster */
 .allButFooter .fa.fa-power-off.fa-5x {
     color: var(--font-color) !important;
 }
@@ -29,7 +29,7 @@
     color: var(--font-color) !important;
 }
 
-/* Formatierung: Unteres Fenster */
+/* Formatting: Unteres Fenster */
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-heading,
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-body,
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-title {
@@ -39,13 +39,13 @@
     color: var(--font-color) !important;
 }
 
-/* Formatierung: Beide Fenster Untere Border */
+/* Formatting: Untere Border von beiden Fenstern */
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-heading,
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-heading {
     border-bottom: 1px solid var(--border-color) !important;
 }
 
-/* Formatierung: Button Unteres Fenster */
+/* Formatting: Button von unterem Fenster */
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-body > .btn.btn-primary {
     border: 1px solid var(--border-color) !important;
 }

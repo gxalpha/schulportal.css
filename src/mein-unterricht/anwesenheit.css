@@ -1,4 +1,4 @@
-/* Tabelle dem Design anpassen, Elevation etc. */
+/* Farbe, Elevation: Tabelle */
 .allButFooter #anwesend > table {
     box-shadow: var(--default-elevation) !important;
     border: 1px solid var(--border-color) !important;
