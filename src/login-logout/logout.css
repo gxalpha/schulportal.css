@@ -1,5 +1,4 @@
-
-/* Oberes Fenster */
+/* Elevation, Farbe: Oberes Fenster */
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success {
     box-shadow: var(--no-elevation) !important;
     border: 1px solid var(--border-color) !important;
@@ -7,6 +6,7 @@
     color: var(--font-color) !important;
 }
 
+/* Formatierung: Inhalt Oberes Fenster */
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-heading,
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-body,
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-title {
@@ -16,12 +16,12 @@
     color: var(--font-color) !important;
 }
 
-/* Power Button White */
+/* Farbe: Oberes Fenster Power Button */
 .allButFooter .fa.fa-power-off.fa-5x {
     color: var(--font-color) !important;
 }
 
-/* Unteres Fenster */
+/* Elevation, Farbe: Unteres Fenster */
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default {
     box-shadow: var(--default-elevation) !important;
     border: 1px solid var(--border-color) !important;
@@ -29,6 +29,7 @@
     color: var(--font-color) !important;
 }
 
+/* Formatierung: Unteres Fenster */
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-heading,
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-body,
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-title {
@@ -38,12 +39,13 @@
     color: var(--font-color) !important;
 }
 
+/* Formatierung: Beide Fenster Untere Border */
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-heading,
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-heading {
     border-bottom: 1px solid var(--border-color) !important;
 }
 
-/* Button unterers Fenster */
+/* Formatierung: Button Unteres Fenster */
 .allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-body > .btn.btn-primary {
     border: 1px solid var(--border-color) !important;
 }

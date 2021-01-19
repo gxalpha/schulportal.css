@@ -1,21 +1,22 @@
-.allButFooter .col-md-12.column > .panel-group > .panel.panel-primary,
-.allButFooter .panel-primary > .panel-heading,
-.allButFooter .panel-primary > .panel-heading a {
+/* Elevation, Farbe: Große Dropdown-Menüs */
+.allButFooter #accordion .panel-primary,
+.allButFooter #accordion .panel-primary > .panel-heading,
+.allButFooter #accordion .panel-primary > .panel-heading a {
     background-color: transparent !important;
     color: var(--font-color) !important;
 }
 
-/* Dropdown-Panel */
+/* Formatting: Einzelnes Dropdown-Panel */
 .allButFooter .panel-primary.panel {
     border-color: var(--font-color) !important;
 }
 
-/* Dropdown-Panel */
+/* Formatting: Einzelnes Dropdown-Panel Body */
 .allButFooter .panel-primary > .panel-body {
     background-color: transparent !important;
 }
 
-/* Färben: Menü Items (mein Unterricht, etc.) */
+/* Elevation, Farbe: Menü-Items im Dropdown-Panel (mein Unterricht, etc.) */
 .allButFooter #accordion .box {
     background-color: transparent !important;
     box-shadow: var(--no-elevation) !important;
@@ -24,16 +25,17 @@
     border-collapse: separate !important;
 }
 
-/* Vereinheitlich die Form der Menu-Items */
+/* Formatting: Form der Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .logobox .logoview {
     height: 103px !important;
 }
 
-/* TODO Menü Item Bild färben */
+/* Farbe: TODO Farbe der Bilder der Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .logobox .logoview .preshow {
     color: var(--font-color) !important;
 }
 
+/* Formatting: Feld für Schrift der Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .textheight {
     height: 33px !important;
     border-bottom-left-radius: 2px !important;
@@ -45,7 +47,7 @@
     padding: 6px !important;
 }
 
-/* Passt Header an:  centern und border/margin entfernen */
+/* Formatting: Schrift der Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .textheight h3 {
     border: none !important;
     margin: 0 !important;
@@ -56,19 +58,19 @@
     align-items: center !important;
 }
 
-/* Färbt die kleine Zahl neben dem Text */
+/* Farbe: Zahl neben Schrift der Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .textheight .badge {
     background-color: var(--homework-undone-color) !important;
     color: var(--font-color) !important;
     margin-left: 5px !important;
 }
 
-/* Entfernt den "n Hausaufgaben unerledigt"-etc-Banner vom Menu Item */
+/* Entfernt: "n Hausaufgaben unerledigt"-etc-Banner vom Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .logobox .logoview .preshow {
     display: none;
 }
 
-/* Färben: Auswahl Knöpfe in Menüitems (Pin, Info, Fragezeichen) */
+/* Farbe: Kleine Knöpfe oben links im Menü-Item im Dropdown-Panel */
 .allButFooter #accordion .box .startordnerDel,
 .allButFooter #accordion .box .startordnerAdd,
 .allButFooter #accordion .box .glyphicon.glyphicon-info-sign,
@@ -78,7 +80,7 @@
     color: var(--font-color) !important;
 }
 
-/* Entfernt das Tools-Menü */
+/* Entfernt: Tools-Dropdown-Panel */
 .allButFooter [data-id="Tools"] {
     display: none;
 }
