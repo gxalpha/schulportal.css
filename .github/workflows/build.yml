@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  core:
+    name: Build core project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Grant build file execute permissions
+        run: chmod u+x build.sh
+      - name: Create the file
+        run: ./build.sh
+      - name: Upload the artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: schulportal.css
+          path: build

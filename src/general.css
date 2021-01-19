@@ -1,0 +1,125 @@
+/* Färben: Standard Hintergrund von der Website */
+.allButFooter {
+    background-color: var(--light-gray);
+}
+
+/* Entfernen: Zeile mit Schulportal Logo */
+.allButFooter .navbar-first {
+    display: none !important;
+}
+
+/* Färben: Allgemeine Navigationsbar */
+.allButFooter .navbar-custom {
+    background-color: var(--dark-gray) !important;
+    border-left: none !important;
+}
+
+/* Entfernen: HvK-Logo */
+.allButFooter .headlogo {
+    display: none;
+}
+
+/* Färben: Texteingabefelder */
+.allButFooter input, .allButFooter textarea {
+    color: var(--font-color) !important;
+    background-color: var(--light-gray) !important;
+}
+
+/* Färben: Links */
+.allButFooter a {
+    color: var(--font-link-color) !important;
+}
+
+/* TODO (macht button links weiß= -> testen if needed und welcher button */
+.allButFooter a.btn {
+    color: var(--font-color);
+}
+
+/* Färben: Alle Dropdown-Menüs */
+.allButFooter ul.dropdown-menu {
+    background-color: var(--dark-gray) !important;
+    color: var(--font-color) !important;
+}
+
+/* Färben: Alle Dropdown-Menü-Hover */
+.allButFooter ul.dropdown-menu li a:hover {
+    background-color: var(--light-gray) !important;
+}
+
+/* Entfernen: Blur-Effekt Toolbar Item*/
+.allButFooter a.dropdown-toggle {
+    background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) !important;
+}
+
+/* Färben: alle Tabellen */
+.allButFooter .table-striped > tbody > tr {
+    background-color: var(--light-gray) !important;
+}
+
+.allButFooter .table-hover > tbody > tr:hover {
+    background-color: var(--light-gray) !important;
+}
+
+.allButFooter .table-striped > tbody > tr:not(.printable):hover {
+    background-color: var(--dark-gray) !important;
+}
+
+/* Festlegen: Auswahl-Tabs - Farbe und Border */
+.allButFooter ul.nav.nav-tabs li.active a {
+    background-color: var(--light-gray) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 3px !important;
+}
+
+/* Festlegen: Hover über Auswahl-Tabs */
+.allButFooter ul.nav.nav-tabs li a:hover {
+    background-color: var(--dark-gray) !important;
+    border-radius: 3px !important;
+}
+
+/* Entfernen: überflüssige Borders: Nicht aktive Tabs & Navigation Bar*/
+.allButFooter ul.nav.nav-tabs li:not(.active), .allButFooter .nav.nav-tabs {
+    border: none !important;
+}
+
+.allButFooter #content > div:nth-child(3)::after {
+    display: none !important;
+}
+
+/* Färben: von (fast) allen Knöpfen  */
+.allButFooter .btn-primary,
+.allButFooter .btn-default,
+.allButFooter .btn-info,
+.allButFooter .btn-warning,
+.allButFooter .btn-danger,
+.allButFooter .btn-success {
+    background-color: var(--light-gray) !important;
+    border: 1px solid var(--border-color) !important; /* Wird für .btn-warning:not(.pull-right) überschrieben */
+    box-shadow: var(--no-elevation) !important;
+    color: var(--font-color) !important;
+}
+
+/* Färben: Alle Arten von Text (hoffentlich) */
+.allButFooter h1,
+.allButFooter h2,
+.allButFooter h3,
+.allButFooter h4,
+.allButFooter h5,
+.allButFooter h6,
+.allButFooter .table,
+.allButFooter small {
+    color: var(--font-color) !important;
+}
+
+
+/* Entfernt den Footer */
+.allButFooter ~ .hidden-print.footer {
+    background-color: var(--light-gray) !important;
+    font-size: 0 ! important;
+    color: var(--light-gray) !important;
+    border-top: 5px solid var(--light-gray) !important;
+}
+
+body > div.hidden-print.footer > div.row.visible-lg.visible-md > div > table > tbody > tr > td:nth-child(1) > a > img {
+    object-position: -999999px 999999px !important;
+}

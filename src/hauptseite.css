@@ -1,0 +1,84 @@
+.allButFooter .col-md-12.column > .panel-group > .panel.panel-primary,
+.allButFooter .panel-primary > .panel-heading,
+.allButFooter .panel-primary > .panel-heading a {
+    background-color: transparent !important;
+    color: var(--font-color) !important;
+}
+
+/* Dropdown-Panel */
+.allButFooter .panel-primary.panel {
+    border-color: var(--font-color) !important;
+}
+
+/* Dropdown-Panel */
+.allButFooter .panel-primary > .panel-body {
+    background-color: transparent !important;
+}
+
+/* Färben: Menü Items (mein Unterricht, etc.) */
+.allButFooter #accordion .box {
+    background-color: transparent !important;
+    box-shadow: var(--no-elevation) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 3px !important;
+    border-collapse: separate !important;
+}
+
+/* Vereinheitlich die Form der Menu-Items */
+.allButFooter #accordion .box .logobox .logoview {
+    height: 103px !important;
+}
+
+/* TODO Menü Item Bild färben */
+.allButFooter #accordion .box .logobox .logoview .preshow {
+    color: var(--font-color) !important;
+}
+
+.allButFooter #accordion .box .textheight {
+    height: 33px !important;
+    border-bottom-left-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+    border-collapse: separate !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    border-top: 1px solid var(--border-color) !important;
+    padding: 6px !important;
+}
+
+/* Passt Header an:  centern und border/margin entfernen */
+.allButFooter #accordion .box .textheight h3 {
+    border: none !important;
+    margin: 0 !important;
+
+    /* Verschieben von Elementen */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Färbt die kleine Zahl neben dem Text */
+.allButFooter #accordion .box .textheight .badge {
+    background-color: var(--homework-undone-color) !important;
+    color: var(--font-color) !important;
+    margin-left: 5px !important;
+}
+
+/* Entfernt den "n Hausaufgaben unerledigt"-etc-Banner vom Menu Item */
+.allButFooter #accordion .box .logobox .logoview .preshow {
+    display: none;
+}
+
+/* Färben: Auswahl Knöpfe in Menüitems (Pin, Info, Fragezeichen) */
+.allButFooter #accordion .box .startordnerDel,
+.allButFooter #accordion .box .startordnerAdd,
+.allButFooter #accordion .box .glyphicon.glyphicon-info-sign,
+.allButFooter #accordion .box .glyphicon.glyphicon-question-sign {
+    background-color: transparent !important;
+    border: none !important;
+    color: var(--font-color) !important;
+}
+
+/* Entfernt das Tools-Menü */
+.allButFooter [data-id="Tools"] {
+    display: none;
+}

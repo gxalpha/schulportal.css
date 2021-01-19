@@ -1,0 +1,9 @@
+/* Sorgt für Elevation der einzelnen Elemente etc */
+.allButFooter .tab-content #mappen .thumbnail {
+    background-color: var(--light-gray) !important;
+    box-shadow: var(--default-elevation) !important;
+}
+
+.allButFooter .tab-content #mappen .thumbnail .caption h2 span {
+    color: var(--font-color) !important;
+}

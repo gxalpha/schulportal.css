@@ -1,0 +1,49 @@
+
+/* Oberes Fenster */
+.allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success {
+    box-shadow: var(--no-elevation) !important;
+    border: 1px solid var(--border-color) !important;
+    background-color: transparent !important;
+    color: var(--font-color) !important;
+}
+
+.allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-heading,
+.allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-body,
+.allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-title {
+    box-shadow: var(--no-elevation) !important;
+    border: none !important;
+    background-color: transparent !important;
+    color: var(--font-color) !important;
+}
+
+/* Power Button White */
+.allButFooter .fa.fa-power-off.fa-5x {
+    color: var(--font-color) !important;
+}
+
+/* Unteres Fenster */
+.allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default {
+    box-shadow: var(--default-elevation) !important;
+    border: 1px solid var(--border-color) !important;
+    background-color: transparent !important;
+    color: var(--font-color) !important;
+}
+
+.allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-heading,
+.allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-body,
+.allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-title {
+    box-shadow: var(--no-elevation) !important;
+    border: none !important;
+    background-color: transparent !important;
+    color: var(--font-color) !important;
+}
+
+.allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-heading,
+.allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success > .panel-heading {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* Button unterers Fenster */
+.allButFooter .row.transparency > .col-md-4.col-md-offset-4 > .panel.panel-default > .panel-body > .btn.btn-primary {
+    border: 1px solid var(--border-color) !important;
+}

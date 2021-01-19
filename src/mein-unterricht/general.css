@@ -1,0 +1,4 @@
+/* Sorgt für Abstand zwischen dem Auswahl-Menü und dem Inhalt */
+.allButFooter #content .col-md-12 {
+    margin-bottom: 10px !important;
+}

@@ -1,0 +1,40 @@
+/* Entfernt den unnötigen Tabellenkopf */
+.allButFooter .tab-content #aktuell thead {
+    display: none !important;
+}
+
+/* Entfernt den Drucken-Knopf (Bitte was, es gibt einen Drucken-Knopf?!) */
+.allButFooter .btn.btn-default.btn-xs.printable {
+    display: none;
+    visibility: hidden;
+}
+
+/* Sorgt für Elevation etc */
+.allButFooter .tab-content #aktuell table {
+    box-shadow: var(--default-elevation) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 3px !important;
+    border-collapse: separate !important;
+}
+
+/* Obersten weißen Strich entfernen */
+.allButFooter .tab-content #aktuell tbody > tr:first-child > td {
+    border-top: none !important;
+}
+
+
+/* Färbt Knöpfe und Labels */
+/* Rand um den Hausaufgaben-Text */
+.allButFooter .markup.text.realHomework {
+    border: 1px solid var(--homework-undone-color) !important;
+}
+
+/* "Hausaufgabe" -> unerledigt */
+.allButFooter .label.label-success.title {
+    background-color: var(--homework-undone-color) !important;
+}
+
+/* "erledigt" */
+.allButFooter .done.label.label-default {
+    background-color: var(--homework-done-color) !important;
+}

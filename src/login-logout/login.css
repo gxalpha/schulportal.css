@@ -1,0 +1,40 @@
+/* Entferne Info über vergessene Zugangsdaten */
+.allButFooter .row.transparency .col-md-12 .panel.panel-warning,
+.allButFooter .row.transparency .col-md-12 .panel.panel-warning .panel-heading,
+.allButFooter .row.transparency .col-md-12 .panel.panel-warning .panel-body,
+.allButFooter .row.transparency .col-md-12 .panel.panel-warning .panel-heading .panel-title {
+    box-shadow: var(--no-elevation) !important;
+    border: none !important;
+    background-color: var(--light-gray) !important;
+    color: var(--light-gray) !important;
+    visibilty: hidden !important;
+    font-size: 0 !important;
+}
+
+/* Färbe alle Panels */
+.allButFooter #forms .panel.panel-default,
+.allButFooter #successForm > .panel.panel-success,
+.allButFooter #autoLoginForm > .panel.panel-success,
+.allButFooter #saveForm > .panel.panel-info,
+.allButFooter #errorForm.panel.panel-danger,
+.allButFooter #finalerrorForm.panel.panel-warning,
+.allButFooter #finalblockedForm.panel.panel-warning {
+    box-shadow: var(--default-elevation) !important;
+    border: 1px solid var(--border-color) !important;
+    background-color: var(--light-gray) !important;
+    color: var(--font-color) !important;
+}
+
+/* Färbe alle Panel-Köpfe */
+.allButFooter #forms .panel.panel-default > .panel-heading,
+.allButFooter #successForm .panel.panel-success > .panel-heading,
+.allButFooter #autoLoginForm .panel.panel-success > .panel-heading,
+.allButFooter #saveForm > .panel.panel-info > .panel-heading,
+.allButFooter #errorForm.panel.panel-danger > .panel-heading,
+.allButFooter #finalerrorForm.panel.panel-warning > .panel-heading,
+.allButFooter #finalblockedForm.panel.panel-warning > .panel-heading {
+    box-shadow: var(--no-elevation) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    background-color: var(--light-gray) !important;
+    color: var(--font-color) !important;
+}

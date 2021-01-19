@@ -1,0 +1,44 @@
+/* Notenübersicht*/
+/* Rand, Elevation etc. */
+.allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped {
+    border: 1px solid var(--border-color) !important;
+    border-radius: 3px !important;
+    border-collapse: separate !important;
+    box-shadow: var(--default-elevation) !important;
+}
+
+/* Notenübersicht kann verschiedene Klassen haben: Nichts für normales, "success" für Endnoten und "warning" für Zwischennoten */
+/* TODO THIS DOESN'T (YET) WORK */
+.allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped > tbody > tr.success {
+    background-color: var(--dark-gray) !important;
+}
+
+/* Färbt Anhänge */
+.allButFooter #old .alert.alert-info {
+    background-color: var(--light-gray) !important;
+    border: none !important;
+}
+/* Färbt Knöpfe in Kursmappen-Details: */
+/* "Rückgängig-Pfeil" -> Wieder als unerledigt markieren */
+.allButFooter .btn.btn-default.btn-xs {
+    background-color: var(--homework-undone-color) !important;
+    color: var(--font-color) !important;
+    border: none !important;
+}
+
+/* "Haken" -> Als erledigt markieren */
+.allButFooter .btn.btn-success.btn-xs {
+    background-color: var(--homework-done-color) !important;
+    color: var(--font-color) !important;
+    border: none !important;
+}
+
+/* "Hausaufgabe unerledigt" */
+.allButFooter .label.label-danger {
+    background-color: var(--homework-undone-color) !important;
+}
+
+/* "Hausaufgabe erledigt" */
+.allButFooter .hidden-print.label.label-success {
+    background-color: var(--homework-done-color) !important;
+}

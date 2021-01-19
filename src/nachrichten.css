@@ -1,0 +1,26 @@
+/* Färbe das Sortierungsfeld um und macht den Tabellenkopf schöner */
+.allButFooter .th-inner.sortable.both, .allButFooter #msgTable > thead, .allButFooter #msgTable > thead input {
+    background-color: var(--light-gray) !important;
+}
+
+/* Entferne die vielen Striche zwischen den Nachrichten */
+.allButFooter #msgTableBody > tr > td, .allButFooter #msgTable > thead > tr > th {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+/* Füge Elevation hinzu */
+.allButFooter #msgTableArea .fixed-table-container {
+    box-shadow: var(--default-elevation) !important;
+}
+
+/* Färben: ungelesene Nachrichen */
+.allButFooter .fixed-table-body .newMsgStatus.fa.fa-envelope-open-o {
+    background-color: var(--homework-undone-color) !important;
+    color: var(--font-color) !important;
+}
+
+/* Färbe Kreis anders */
+.allButFooter #msgTableBody > tr > td.markTop > i, .allButFooter #MarkBtn {
+    color: var(--font-color) !important;
+}
