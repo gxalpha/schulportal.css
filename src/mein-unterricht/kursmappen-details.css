@@ -18,7 +18,6 @@
     background-color: var(--light-gray) !important;
     border: none !important;
 }
-
 /* Färbt Knöpfe in Kursmappen-Details: */
 /* "Rückgängig-Pfeil" -> Wieder als unerledigt markieren */
 .allButFooter .btn.btn-default.btn-xs {

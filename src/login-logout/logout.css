@@ -1,3 +1,4 @@
+
 /* Oberes Fenster */
 .allButFooter .row.transparency > .col-md-8.col-md-offset-2 > .panel.panel-success {
     box-shadow: var(--no-elevation) !important;
