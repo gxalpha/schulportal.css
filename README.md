@@ -4,6 +4,7 @@
 
 - Cookie-Banner
 - Automatisches Ausloggen, siehe Screenshot
+- Abgabe Fenster
 
 ### Kommentar-Richtlinien
 

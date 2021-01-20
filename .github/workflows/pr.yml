@@ -1,13 +1,15 @@
-name: Build
+name: Test
 
 on:
   push:
+    branches-ignore: [ main ]
+  pull_request:
     branches: [ main ]
 
 jobs:
 
   core:
-    name: Build core project
+    name: Test core project
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
