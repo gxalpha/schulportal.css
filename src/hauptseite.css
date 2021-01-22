@@ -1,3 +1,17 @@
+/* Elevation, Farbe: Warning-Popups */
+.allButFooter #show .alert.alert-warning {
+    background-color: var(--light-gray) !important;
+    color: var(--orange-color) !important;
+    margin-top: 20px !important;
+    border: 1px solid var(--orange-color) !important;
+    box-shadow: var(--default-elevation);
+}
+
+/* Farbe: Überschrift in Warning-Popups */
+.allButFooter #show .alert.alert-warning h4 {
+    color: var(--orange-color) !important;
+}
+
 /* Elevation, Farbe: Große Dropdown-Menüs */
 .allButFooter #accordion .panel-primary,
 .allButFooter #accordion .panel-primary > .panel-heading,
