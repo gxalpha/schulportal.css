@@ -46,6 +46,13 @@
     background-color: var(--light-gray) !important;
 }
 
+/* Farbe, Formatting: Zahlen-Badges */
+.allButFooter .badge {
+    color: var(--font-color) !important;
+    border: 1px solid var(--border-color) !important;
+    background-color: transparent !important;
+}
+
 /* Entfernen: Blur-Effekt Toolbar Item */
 .allButFooter a.dropdown-toggle {
     background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) !important;

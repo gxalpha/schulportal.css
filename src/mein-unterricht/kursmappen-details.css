@@ -12,13 +12,6 @@
     background-color: var(--dark-gray) !important;
 }
 
-/* Formatting: Notenzahl */
-.allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped > tbody td .badge {
-    color: var(--font-color) !important;
-    background-color: var(--light-gray) !important;
-    border: 1px solid var(--border-color) !important;
-}
-
 /* Farbe: Anhänge in Tabellenelement in "Historie" */
 .allButFooter #old .alert.alert-info {
     background-color: var(--light-gray) !important;

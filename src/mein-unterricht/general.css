@@ -9,3 +9,9 @@
     border-color: var(--orange-color) !important;
     z-index: 10 !important;
 }
+
+/* Farbe: Badges in Dateiabgabe-Menü in Tabellenelement in "Aktuelle Einträge" und Badges in Dateiabgabe-Dropdown-Menü in Tabellenelement in Kursmappen-Details */
+.allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle .badge {
+    color: var(--orange-color) !important;
+    border-color: var(--orange-color) !important;
+}
