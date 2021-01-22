@@ -36,3 +36,10 @@
 .allButFooter .done.label.label-default {
     background-color: var(--homework-done-color) !important;
 }
+
+/* Farbe, Formatting: Zahl-Badge neben "Abgabe"-Text in Abgabe-Dropdown-Menü im Tabellenelement */
+.allButFooter .tab-content #aktuell tbody > tr > td > div > div > button > span.badge {
+    color: var(--font-color) !important;
+    border: 1px solid var(--border-color) !important;
+    background-color: var(--light-gray) !important;
+}
