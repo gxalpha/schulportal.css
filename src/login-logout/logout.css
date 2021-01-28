@@ -1,0 +1,42 @@
+/* Elevation, Farbe: Alle Fenster */
+.allButFooter #successForm .panel.panel-success,
+.allButFooter #newlogin .panel.panel-default,
+.allButFooter #al .panel.panel-default {
+    box-shadow: var(--default-elevation) !important;
+    border: 1px solid var(--border-color) !important;
+    background-color: transparent !important;
+    color: var(--font-color) !important;
+}
+
+/* Formatting: Inhalt von allen Fenster */
+.allButFooter #successForm .panel.panel-success > .panel-heading,
+.allButFooter #successForm .panel.panel-success > .panel-body,
+.allButFooter #successForm .panel.panel-success > .panel-title,
+.allButFooter #newlogin .panel.panel-default > .panel-heading,
+.allButFooter #newlogin .panel.panel-default > .panel-body,
+.allButFooter #newlogin .panel.panel-default > .panel-title,
+.allButFooter #al .panel.panel-default > .panel-heading,
+.allButFooter #al .panel.panel-default > .panel-body,
+.allButFooter #al .panel.panel-default > .panel-title {
+    box-shadow: var(--no-elevation) !important;
+    border: none !important;
+    background-color: transparent !important;
+    color: var(--font-color) !important;
+}
+
+/* Farbe: Power-Button von oberem Fenster */
+.allButFooter #successForm .fa.fa-power-off.fa-5x {
+    color: var(--font-color) !important;
+}
+
+/* Formatting: Untere Border von allen Fenstern */
+.allButFooter #successForm .panel.panel-success > .panel-heading,
+.allButFooter #newlogin .panel.panel-default > .panel-heading,
+.allButFooter #al .panel.panel-default > .panel-heading {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* Formatting: Button von unterem Fenster */
+.allButFooter #newlogin .panel.panel-default > .panel-body > .btn.btn-primary {
+    border: 1px solid var(--border-color) !important;
+}

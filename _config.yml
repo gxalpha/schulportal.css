@@ -1,0 +1,14 @@
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - docs/chrome_desktop.md
+  - docs/firefox_desktop.md
+  - docs/opera_desktop.md
+  - docs/safari_desktop.md
+  - docs/edge_desktop.md

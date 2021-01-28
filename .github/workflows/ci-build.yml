@@ -1,0 +1,27 @@
+name: CI Build
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+
+  build:
+    name: Build project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Grant build file execute permissions
+        run: chmod u+x build.sh
+      - name: Set up environment variables
+        run: |
+          GITHUB_LONG_SHA=${{ github.sha }}
+          GITHUB_SHORT_SHA=${GITHUB_LONG_SHA:0:7}
+          echo "GITHUB_SHORT_SHA=${GITHUB_SHORT_SHA}" >> $GITHUB_ENV
+      - name: Create the file
+        run: ./build.sh
+      - name: Upload the artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: schulportal-${{ env.GITHUB_SHORT_SHA }}.css
+          path: build

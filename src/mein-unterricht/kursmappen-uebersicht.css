@@ -1,0 +1,10 @@
+/* Elevation, Farbe: Einzelne Mappen */
+.allButFooter .tab-content #mappen .thumbnail {
+    background-color: var(--light-gray) !important;
+    box-shadow: var(--default-elevation) !important;
+}
+
+/* Formatting: Text in Mappen */
+.allButFooter .tab-content #mappen .thumbnail .caption h2 span {
+    color: var(--font-color) !important;
+}

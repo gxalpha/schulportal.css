@@ -1,0 +1,9 @@
+/* Farbe, Elevation: Beide Fenster */
+.allButFooter #content div.jumbotron,
+.allButFooter #content div.jumbotron ~ div {
+    margin-top: 11px;
+    box-shadow: var(--default-elevation) !important;
+    background-color: var(--light-gray) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--font-color) !important;
+}
