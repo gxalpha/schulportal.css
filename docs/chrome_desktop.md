@@ -15,8 +15,8 @@ Wir erklären das hier anhand des Plugins `Stylebot`.
 - Drücke nun auf `Optionen` damit du in die Plugin Einstellungen kommst.
 - Wähle nun links in der Leiste das Menü `Stile` und drücke oben auf `Neuen Stil hinzufügen ...`.
 - Oben siehst du nun eine Leiste mit `Enter URL...`. Dort fügst du [https://start.schulportal.hessen.de/](https://start.schulportal.hessen.de/) ein.
-- Jetzt lädst du die Datei herunter und entpackst sie. Sie sollte nun `schulportal.css` heißen.
-- Anschließend öffnest du die Datei mit einem beliebigen Texteditor (z. B. `Rechtsklick` &rarr; `Öffnen mit` &rarr;  `Editor`).
+- Navigiere nun im Windows-Explorer (bzw. Finder, falls du macOS verwendest) zu der Datei, die du zuvor heruntergeladen hast. Sie sollte `schulportal.css` heißen.
+- Öffne anschließend die Datei mit einem beliebigen Texteditor (z. B. `Rechtsklick` &rarr; `Öffnen mit` &rarr;  `Editor`).
 - Jetzt wählst du den gesamten Text mit `Strg` + `a` aus und kopierst ihn mit `Strg` + `c` in deine Zwischenablage.
 - Gehe nun wieder auf deinen Browser und füge das Kopierte mit `Strg` + `v` in die Codezeilen ein.
 - Abschließend speicherst du das Dokument mit dem blauen `Speichern` Knopf unten rechts.
@@ -24,5 +24,5 @@ Wir erklären das hier anhand des Plugins `Stylebot`.
 
 Tipp: Wenn du zwischenzeitlich die normale Website verwenden musst, öffne einfach einen Inkognito-Tab.
 
-Wenn du die Änderung wieder rückgängig machen willst, dann öffne folgenden [Link](chrome://extensions) und deinstalliere das Plugin Stylebot.
+Wenn du die Änderung wieder rückgängig machen willst, dann öffne folgenden [Link](chrome://extensions) und deinstalliere das Plugin `Stylebot`.
 Gegebenenfalls musst du die Schulportal-Website neu laden. 

@@ -23,7 +23,8 @@ Achtung: Sollte etwas schiefgehen, versuche, die Änderungen rückgängig zu mac
 wie zum Beispiel die gesamte Seite unsichtbar zu machen, benutze daher nur die Datei aus unserem offiziellen Download!
 
 ### Herunterladen
-Alle Guides enthalten die Stelle, an der du die Datei herunterladen musst. Den Download-Link dazu findest du <a href="https://github.com/gxalpha/schulportal.css/releases" target="_blank">hier</a>.
+Zunächst einmal musst du die Datei herunterladen. Den Download-Link dazu findest du <a href="https://github.com/gxalpha/schulportal.css/releases" target="_blank">hier</a>.
+Achte darauf, dass du `schulportal.css` und nicht `source code` herunterlädst, letztere wäre die falsche Datei.
 
 Nun aber zu den Anleitungen:
 
