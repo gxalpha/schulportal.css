@@ -1,5 +1,6 @@
 /* Elevation, Farbe: Warning-Popups */
-.allButFooter #show .alert.alert-warning {
+.allButFooter #show .alert.alert-warning,
+.allButFooter #show .panel.panel-warning.noeffect {
     background-color: var(--light-gray) !important;
     color: var(--orange-color) !important;
     margin-top: 20px !important;
@@ -8,8 +9,16 @@
 }
 
 /* Farbe: Überschrift in Warning-Popups */
-.allButFooter #show .alert.alert-warning h4 {
+.allButFooter #show .alert.alert-warning h4,
+.allButFooter #show .panel.panel-warning.noeffect h4 {
     color: var(--orange-color) !important;
+}
+
+/* Farbe: Header in Warning-Popups */
+.allButFooter #show .panel.panel-warning.noeffect .panel-heading {
+    background-color: var(--light-gray) !important;
+    color: var(--orange-color) !important;
+    border-color: var(--orange-color) !important;
 }
 
 /* Formatting: Dropdown-Menü-Container */
