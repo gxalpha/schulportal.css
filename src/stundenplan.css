@@ -1,0 +1,12 @@
+/* Entfernen: Footer */
+.allButFooter > .hidden-print.footer {
+    background-color: var(--light-gray) !important;
+    font-size: 0 ! important;
+    color: var(--light-gray) !important;
+    border-top: 5px solid var(--light-gray) !important;
+}
+
+/* Entfernen: Schulportal-Logo (Footer) */
+.allButFooter > .hidden-print.footer img {
+    object-position: -999999px 999999px !important;
+}
