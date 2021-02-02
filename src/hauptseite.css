@@ -5,7 +5,7 @@
     color: var(--orange-color) !important;
     margin-top: 20px !important;
     border: 1px solid var(--orange-color) !important;
-    box-shadow: var(--default-elevation);
+    box-shadow: var(--default-elevation) !important;
 }
 
 /* Farbe: Überschrift in Warning-Popups */
