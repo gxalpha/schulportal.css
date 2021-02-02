@@ -22,3 +22,21 @@
 .allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle small {
     color: var(--orange-color) !important;
 }
+
+/* Farbe: Anhänge Wort und Büroklammer */
+.allButFooter #old > div > table > tbody .alert.alert-info > b {
+    color: var(--font-color) !important;
+    font-weight: normal !important;
+}
+
+/* Entfernen: Tabellenkopf */
+.allButFooter #old > div > table > thead {
+    display: none !important;
+}
+
+/* Formatting: Leere Kursmappe Text */
+.allButFooter #old .alert.alert-info {
+    padding: 0 !important;
+    color: var(--font-color) !important;
+}
+
