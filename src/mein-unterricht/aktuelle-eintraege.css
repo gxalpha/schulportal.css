@@ -18,8 +18,8 @@
 
 /* Entfernen: Drucken-Knopf in Tabellenelement */
 .allButFooter .btn.btn-default.btn-xs.printable {
-    display: none;
-    visibility: hidden;
+    display: none !important;
+    visibility: hidden !important;
 }
 
 /* Farbe: Border um die Hausaufgaben-Beschreibung im Tabellenelement */

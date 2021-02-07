@@ -1,6 +1,6 @@
 /* Farbe: Überall */
 .allButFooter {
-    background-color: var(--light-gray);
+    background-color: var(--light-gray) !important;
 }
 
 /* Entfernen: Zeile mit Schulportal-Logo */
@@ -16,7 +16,7 @@
 
 /* Entfernen: HvK-Logo */
 .allButFooter .headlogo {
-    display: none;
+    display: none !important;
 }
 
 /* Farbe: Texteingabefelder */
@@ -32,7 +32,7 @@
 
 /* TODO (macht button links weiß= -> testen if needed und welcher button */
 .allButFooter a.btn {
-    color: var(--font-color);
+    color: var(--font-color) !important;
 }
 
 /* Farbe: Dropdown-Menüs */

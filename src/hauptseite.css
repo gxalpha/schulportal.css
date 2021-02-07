@@ -23,7 +23,7 @@
 
 /* Formatting: Dropdown-Menü-Container */
 .allButFooter #accordion {
-    margin-top: 11px;
+    margin-top: 11px !important;
 }
 
 /* Elevation, Farbe: Große Dropdown-Menüs */
@@ -95,7 +95,7 @@
 
 /* Entfernt: "n Hausaufgaben unerledigt"-etc-Banner vom Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .logobox .logoview .preshow {
-    display: none;
+    display: none !important;
 }
 
 /* Farbe: Kleine Knöpfe oben links im Menü-Item im Dropdown-Panel */
@@ -110,5 +110,5 @@
 
 /* Entfernt: Tools-Dropdown-Panel */
 .allButFooter [data-id="Tools"] {
-    display: none;
+    display: none !important;
 }

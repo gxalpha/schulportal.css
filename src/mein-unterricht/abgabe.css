@@ -1,5 +1,5 @@
 /* Farbe: Gesamte Seite */
 .allButFooter .container #content {
-    background-color: var(--light-gray);
-    color: var(--font-color);
+    background-color: var(--light-gray) !important;
+    color: var(--font-color) !important;
 }
