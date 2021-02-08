@@ -37,3 +37,38 @@
     border: 1px solid var(--border-color) !important;
     color: var(--font-color) !important;
 }
+
+/* Farbe: einzelne Nachrichten Hintergrund */
+.allButFooter .chat .chat-history .message.me-message,
+.allButFooter .chat .chat-history .message.you-message {
+    background-color: var(--light-gray) !important;
+    color: var(--font-color) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: var(--default-elevation) !important;
+}
+
+/* Entfernen: Pfeil auf Nachrichtenabsender */
+.allButFooter .chat .message::after {
+    display: none !important;
+}
+
+/* Formatting: Abstand zwischen Name und Nachricht von 15 px verkleinern */
+.allButFooter #content > div.chat > div.chat-history .message-data {
+    margin-bottom: 1px !important;
+}
+
+/* Farbe: Namenslabel in Nachricht (Privatnachricht) */
+.allButFooter #content > h1 > small .label.label-default {
+    background-color: transparent !important;
+    border: 1px solid var(--font-color) !important;
+    color: var(--font-color) !important;
+    font-weight: normal !important;
+}
+
+/* Entfernen: Kreis neben gesendeter Nachricht */
+/* Entfernen: 3 Punkte Menü (wegen weirder position) */
+.allButFooter #content > div.chat > div.chat-history .message-data.align-right > .fa.fa-circle.me,
+.allButFooter #dropdownBtn > .fas.fa-ellipsis-v{
+    display: none !important;
+    visibility: hidden !important;
+}
