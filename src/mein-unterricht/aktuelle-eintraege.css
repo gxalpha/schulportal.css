@@ -6,9 +6,32 @@
     border-collapse: separate !important;
 }
 
+/* Farbe: "x offene Abgaben"-Knopf über der Tabelle */
+.allButFooter .tab-content #aktuell > #homeworkUndoneBtn ~ a,
+.allButFooter .tab-content #aktuell > #homeworkUndoneBtn ~ a .badge {
+    border-color: var(--orange-color) !important;
+    color: var(--orange-color) !important;
+}
+
 /* Entfernen: Tabellenkopf */
 .allButFooter .tab-content #aktuell thead {
     display: none !important;
+}
+
+/* Formatting: Abstand zwischen Knöpfen und Tabellen */
+.allButFooter .tab-content #aktuell #homeworkUndoneBtn,
+.allButFooter .tab-content #aktuell #homeworkUndoneBtn ~ .btn.btn-warning {
+    margin-bottom: 5px !important;
+}
+
+/* Formatting Abstand zwischen Knöpfen */
+.allButFooter .tab-content #aktuell #homeworkUndoneBtn {
+    margin-right: 2px !important;
+}
+
+/* Farbe: Hintergrund der Tabelle */
+.allButFooter .tab-content #aktuell tbody > tr {
+    background-color: transparent !important;
 }
 
 /* Entfernen: Obere Border des ersten Tabellenelements */
