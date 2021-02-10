@@ -74,27 +74,18 @@
     background-color: var(--dark-gray) !important;
 }
 
-/* Festlegen: Auswahl-Tabs - Farbe und Border TODO Comment, perhaps refactor */
-.allButFooter ul.nav.nav-tabs li.active a {
-    background-color: var(--light-gray) !important;
+/* Farbe, Formatting: Navigation-Tabs, z.B. in "Mein Unterricht" */
+.allButFooter ul.nav.nav-tabs li a {
+    background-color: transparent !important;
     border: 1px solid var(--border-color) !important;
     border-radius: 3px !important;
+    margin-right: 5px !important;
+    color: var(--font-color) !important;
 }
 
-/* Festlegen: Hover über Auswahl-Tabs TODO Comment, perhaps refactor */
-.allButFooter ul.nav.nav-tabs li a:hover {
-    background-color: var(--dark-gray) !important;
-    border-radius: 3px !important;
-}
-
-/* Entfernen: überflüssige Borders: Nicht aktive Tabs & Navigation Bar TODO Comment, perhaps refactor */
-.allButFooter ul.nav.nav-tabs li:not(.active), .allButFooter .nav.nav-tabs {
+/* Entfernen: Border unter Navigation-Tabs, z.B. in "Mein Unterricht" */
+.allButFooter .nav.nav-tabs {
     border: none !important;
-}
-
-/* TODO Comment, perhaps refactor */
-.allButFooter #content > div:nth-child(3)::after {
-    display: none !important;
 }
 
 /* Farbe: Knöpfe */
