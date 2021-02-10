@@ -53,6 +53,16 @@
     border-collapse: separate !important;
 }
 
+/* Farbe: Hover über Menü-Items im Dropdown-Panel */
+.allButFooter #accordion .box:hover {
+    background-color: var(--dark-gray) !important;
+}
+
+/* Entfernen: Tooltip bei Hover über Menü-Items im Dropdown-Panel */
+.allButFooter ~ .tooltip.fade.bottom.in {
+    display: none !important;
+}
+
 /* Formatting: Form der Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .logobox .logoview {
     height: 103px !important;

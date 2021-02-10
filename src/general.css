@@ -74,20 +74,6 @@
     background-color: var(--dark-gray) !important;
 }
 
-/* Farbe, Formatting: Navigation-Tabs, z.B. in "Mein Unterricht" */
-.allButFooter ul.nav.nav-tabs li a {
-    background-color: transparent !important;
-    border: 1px solid var(--border-color) !important;
-    border-radius: 3px !important;
-    margin-right: 5px !important;
-    color: var(--font-color) !important;
-}
-
-/* Entfernen: Border unter Navigation-Tabs, z.B. in "Mein Unterricht" */
-.allButFooter .nav.nav-tabs {
-    border: none !important;
-}
-
 /* Farbe: Knöpfe */
 .allButFooter .btn-primary,
 .allButFooter .btn-default,
@@ -99,6 +85,16 @@
     border: 1px solid var(--border-color) !important;
     box-shadow: var(--no-elevation) !important;
     color: var(--font-color) !important;
+}
+
+/* Farbe: Hover über Knöpfe */
+.allButFooter .btn-primary:hover,
+.allButFooter .btn-default:hover,
+.allButFooter .btn-info:hover,
+.allButFooter .btn-warning:hover,
+.allButFooter .btn-danger:hover,
+.allButFooter .btn-success:hover {
+    background-color: var(--dark-gray) !important;
 }
 
 /* Farbe: Normaler Text */
@@ -113,6 +109,24 @@
     color: var(--font-color) !important;
 }
 
+/* Farbe, Formatting: Navigation-Tabs, z.B. in "Mein Unterricht" */
+.allButFooter ul.nav.nav-tabs li a {
+    background-color: transparent !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 3px !important;
+    margin-right: 5px !important;
+    color: var(--font-color) !important;
+}
+
+/* Farbe: Hover über Navigation-Tabs, z.B. in "Mein Unterricht" */
+.allButFooter ul.nav.nav-tabs li a:hover {
+    background-color: var(--dark-gray) !important;
+}
+
+/* Entfernen: Border unter Navigation-Tabs, z.B. in "Mein Unterricht" */
+.allButFooter .nav.nav-tabs {
+    border: none !important;
+}
 
 /* Farbe, Formatting: Lade-Banner */
 .allButFooter .container #content #load div {
