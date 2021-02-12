@@ -103,8 +103,6 @@
 
 /* Farbe: Zahl neben Schrift der Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .textheight .badge {
-    background-color: var(--homework-undone-color) !important;
-    color: var(--font-color) !important;
     margin-left: 5px !important;
 }
 
