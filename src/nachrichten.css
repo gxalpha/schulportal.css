@@ -76,7 +76,7 @@
 /* Entfernen: Kreis neben gesendeter Nachricht */
 /* Entfernen: 3 Punkte Menü (wegen weirder position) */
 .allButFooter #content > div.chat > div.chat-history .message-data.align-right > .fa.fa-circle.me,
-.allButFooter #dropdownBtn > .fas.fa-ellipsis-v{
+.allButFooter #dropdownBtn > .fas.fa-ellipsis-v {
     display: none !important;
     visibility: hidden !important;
 }
