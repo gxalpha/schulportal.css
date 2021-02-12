@@ -20,9 +20,17 @@
     color: var(--font-color) !important;
 }
 
-/* Farbe: Checkbox-Kreis neben Nachrichten */
+/* Farbe: Checkbox-Kreis neben Nachrichtenübersicht */
 .allButFooter #msgTableBody > tr > td.markTop > i, .allButFooter #MarkBtn {
     color: var(--font-color) !important;
+}
+
+/* Farbe, Formatting: Absendername in Nachrichtenübersicht */
+#msgTableBody > tr > td > span.label {
+    background-color: transparent !important;
+    border: 1px solid var(--font-color) !important;
+    color: var(--font-color) !important;
+    font-weight: normal !important;
 }
 
 /* Farbe: Seitenauswahl unter Tabelle */
