@@ -68,8 +68,13 @@
     height: 103px !important;
 }
 
-/* Farbe: TODO Farbe der Bilder der Menü-Items im Dropdown-Panel */
-.allButFooter #accordion .box .logobox .logoview .preshow {
+/* Farbe: Große Bilder der Menü-Items im Dropdown-Panel */
+.allButFooter #accordion > div > div.panel-body > ul > li.ui-state-default > div > div.logobox > div.logoview > a > span::before {
+    color: var(--font-color) !important;
+}
+
+/* Farbe: kleinen Icons oben rechts in den Menü-Items im Dropdown-Panel */
+.allButFooter #accordion > div > div.panel-body > ul > li.ui-state-default > div > div.logobox > div.options > a > i::before {
     color: var(--font-color) !important;
 }
 
