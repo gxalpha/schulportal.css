@@ -5,7 +5,7 @@
 
 /* Farbe: Tabellenkopf */
 .allButFooter .th-inner.sortable.both, .allButFooter #msgTable > thead, .allButFooter #msgTable > thead input {
-    background-color: var(--light-gray) !important;
+    background-color: var(--secondary-background) !important;
 }
 
 /* Entfernen: Striche zwischen den Nachrichten */
@@ -14,44 +14,50 @@
     border-right: none !important;
 }
 
+/* Farbe: Ausgewählte Nachrichten in Nachrichten-Übersicht */
+.allButFooter #msgTableBody > tr.selected > td {
+    background-color: var(--accent-lowkey-aka-hover) !important;
+}
+
 /* Farbe: Ungelesene Nachrichten */
 .allButFooter .fixed-table-body .newMsgStatus.fa.fa-envelope-open-o {
-    background-color: var(--homework-undone-color) !important;
-    color: var(--font-color) !important;
+    background-color: var(--usage-remove) !important;
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe: Checkbox-Kreis neben Nachrichtenübersicht */
-.allButFooter #msgTableBody > tr > td.markTop > i, .allButFooter #MarkBtn {
-    color: var(--font-color) !important;
+.allButFooter #msgTable #MarkBtn,
+.allButFooter #msgTableBody > tr > td.markTop > i.select {
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe, Formatting: Absendername in Nachrichtenübersicht */
 #msgTableBody > tr > td > span.label {
     background-color: transparent !important;
-    border: 1px solid var(--font-color) !important;
-    color: var(--font-color) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    color: var(--accent-high-aka-text) !important;
     font-weight: normal !important;
 }
 
 /* Farbe: Seitenauswahl unter Tabelle */
 .allButFooter #msgTableArea .fixed-table-container > .fixed-table-pagination > .pull-right.pagination > ul > li:not(.active) > a {
-    background-color: var(--light-gray) !important;
-    color: var(--font-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe: Ausgewählte Seite in Seitenauswahl unter Tabelle */
 .allButFooter #msgTableArea .fixed-table-container > .fixed-table-pagination > .pull-right.pagination > ul > li.active > a {
-    background-color: var(--dark-gray) !important;
-    border: 1px solid var(--border-color) !important;
-    color: var(--font-color) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe: einzelne Nachrichten Hintergrund */
 .allButFooter .chat .chat-history .message.me-message,
 .allButFooter .chat .chat-history .message.you-message {
-    background-color: var(--light-gray) !important;
-    color: var(--font-color) !important;
-    border: 1px solid var(--border-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     box-shadow: var(--default-elevation) !important;
 }
 
@@ -68,8 +74,8 @@
 /* Farbe: Namenslabel in Nachricht (Privatnachricht) */
 .allButFooter #content > h1 > small .label.label-default {
     background-color: transparent !important;
-    border: 1px solid var(--font-color) !important;
-    color: var(--font-color) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    color: var(--accent-high-aka-text) !important;
     font-weight: normal !important;
 }
 

@@ -1,24 +1,24 @@
 /* Elevation, Farbe: Warning-Popups */
 .allButFooter #show .alert.alert-warning,
 .allButFooter #show .panel.panel-warning.noeffect {
-    background-color: var(--light-gray) !important;
-    color: var(--orange-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--usage-warning) !important;
     margin-top: 20px !important;
-    border: 1px solid var(--orange-color) !important;
+    border: 1px solid var(--usage-warning) !important;
     box-shadow: var(--default-elevation) !important;
 }
 
 /* Farbe: Überschrift in Warning-Popups */
 .allButFooter #show .alert.alert-warning h4,
 .allButFooter #show .panel.panel-warning.noeffect h4 {
-    color: var(--orange-color) !important;
+    color: var(--usage-warning) !important;
 }
 
 /* Farbe: Header in Warning-Popups */
 .allButFooter #show .panel.panel-warning.noeffect .panel-heading {
-    background-color: var(--light-gray) !important;
-    color: var(--orange-color) !important;
-    border-color: var(--orange-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border-color: var(--usage-warning) !important;
 }
 
 /* Formatting: Dropdown-Menü-Container */
@@ -30,32 +30,32 @@
 .allButFooter #accordion .panel-primary,
 .allButFooter #accordion .panel-primary > .panel-heading,
 .allButFooter #accordion .panel-primary > .panel-heading a {
-    background-color: transparent !important;
-    color: var(--font-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Formatting: Einzelnes Dropdown-Panel */
 .allButFooter #accordion .panel-primary.panel {
-    border-color: var(--font-color) !important;
+    border-color: var(--accent-normal-aka-border) !important;
 }
 
 /* Formatting: Einzelnes Dropdown-Panel Body */
 .allButFooter #accordion .panel-primary > .panel-body {
-    background-color: transparent !important;
+    background-color: var(--secondary-background) !important;
 }
 
 /* Elevation, Farbe: Menü-Items im Dropdown-Panel (mein Unterricht, etc.) */
 .allButFooter #accordion .box {
-    background-color: transparent !important;
+    background-color: var(--secondary-background) !important;
     box-shadow: var(--no-elevation) !important;
-    border: 1px solid var(--border-color) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     border-radius: 3px !important;
     border-collapse: separate !important;
 }
 
 /* Farbe: Hover über Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box:hover {
-    background-color: var(--dark-gray) !important;
+    background-color: var(--accent-lowkey-aka-hover) !important;
 }
 
 /* Entfernen: Tooltip bei Hover über Menü-Items im Dropdown-Panel */
@@ -68,14 +68,10 @@
     height: 103px !important;
 }
 
-/* Farbe: Große Bilder der Menü-Items im Dropdown-Panel */
-.allButFooter #accordion > div > div.panel-body > ul > li.ui-state-default > div > div.logobox > div.logoview > a > span::before {
-    color: var(--font-color) !important;
-}
-
-/* Farbe: kleinen Icons oben rechts in den Menü-Items im Dropdown-Panel */
-.allButFooter #accordion > div > div.panel-body > ul > li.ui-state-default > div > div.logobox > div.options > a > i::before {
-    color: var(--font-color) !important;
+/* Farbe: Alle Bilder im Akkordion */
+.allButFooter #accordion i::before,
+.allButFooter #accordion span::before {
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Formatting: Feld für Schrift der Menü-Items im Dropdown-Panel */
@@ -85,8 +81,8 @@
     border-bottom-right-radius: 2px !important;
     border-collapse: separate !important;
     background-color: transparent !important;
-    border-bottom: 1px solid var(--border-color) !important;
-    border-top: 1px solid var(--border-color) !important;
+    border-bottom: 1px solid var(--accent-normal-aka-border) !important;
+    border-top: 1px solid var(--accent-normal-aka-border) !important;
     padding: 6px !important;
 }
 
@@ -109,16 +105,6 @@
 /* Entfernt: "n Hausaufgaben unerledigt"-etc-Banner vom Menü-Items im Dropdown-Panel */
 .allButFooter #accordion .box .logobox .logoview .preshow {
     display: none !important;
-}
-
-/* Farbe: Kleine Knöpfe oben links im Menü-Item im Dropdown-Panel */
-.allButFooter #accordion .box .startordnerDel,
-.allButFooter #accordion .box .startordnerAdd,
-.allButFooter #accordion .box .glyphicon.glyphicon-info-sign,
-.allButFooter #accordion .box .glyphicon.glyphicon-question-sign {
-    background-color: transparent !important;
-    border: none !important;
-    color: var(--font-color) !important;
 }
 
 /* Entfernt: Tools-Dropdown-Panel */

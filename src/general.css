@@ -1,6 +1,6 @@
 /* Farbe: Überall */
 .allButFooter {
-    background-color: var(--light-gray) !important;
+    background-color: var(--primary-background) !important;
 }
 
 /* Entfernen: Zeile mit Schulportal-Logo */
@@ -10,8 +10,9 @@
 
 /* Farbe: Allgemeine Navigationsbar */
 .allButFooter .navbar-custom {
-    background-color: var(--dark-gray) !important;
+    background-color: var(--secondary-background) !important;
     border-left: none !important;
+    border-color: var(--accent-high-aka-text) !important;
 }
 
 /* Entfernen: HvK-Logo */
@@ -21,35 +22,40 @@
 
 /* Farbe: Texteingabefelder */
 .allButFooter input, .allButFooter textarea {
-    color: var(--font-color) !important;
-    background-color: var(--light-gray) !important;
+    color: var(--accent-high-aka-text) !important;
+    background-color: var(--secondary-background) !important;
 }
 
-/* Farbe: Links */
+/* Farbe: Interne Links und externe Links außerhalb des Contents */
 .allButFooter a {
-    color: var(--font-link-color) !important;
+    color: var(--accent-high-aka-text) !important;
+}
+
+/* Farbe: Externe Links innerhalb des Contents */
+.allButFooter #content [target="_blank"] {
+    color: var(--usage-primary) !important;
 }
 
 /* TODO (macht button links weiß= -> testen if needed und welcher button */
 .allButFooter a.btn {
-    color: var(--font-color) !important;
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe: Dropdown-Menüs */
 .allButFooter ul.dropdown-menu {
-    background-color: var(--dark-gray) !important;
-    color: var(--font-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe: Dropdown-Menü-Hover */
 .allButFooter ul.dropdown-menu li a:hover {
-    background-color: var(--light-gray) !important;
+    background-color: var(--accent-lowkey-aka-hover) !important;
 }
 
 /* Farbe, Formatting: Zahlen-Badges */
 .allButFooter .badge {
-    color: var(--font-color) !important;
-    border: 1px solid var(--border-color) !important;
+    color: var(--accent-high-aka-text) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     background-color: transparent !important;
     line-height: 10px !important;
 }
@@ -59,19 +65,38 @@
     background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) !important;
 }
 
-/* Farbe: Tabellen */
-.allButFooter .table-striped > tbody > tr {
-    background-color: var(--light-gray) !important;
+/* Farbe, Formatting: Tabellen */
+.allButFooter .table {
+    box-shadow: var(--default-elevation) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    border-radius: 3px !important;
+    border-collapse: separate !important;
+    background-color: var(--secondary-background) !important;
+    padding: 0 !important;
 }
 
-/* Farbe: Tabellen Hover (nicht dunkel) */
+/* Entfernen: Vorgegebene Border von Tabellen */
+.allButFooter .fixed-table-container {
+    border: none !important;
+}
+
+/* Farbe, Formatting: Tabellenelemente */
+.allButFooter .table tr,
+.allButFooter .table th,
+.allButFooter .table tr > td,
+.allButFooter .table th > td {
+    background-color: transparent !important;
+    border-color: var(--accent-normal-aka-border) !important;
+}
+
+/* Farbe: Hover über Tabellen (Die keinen Hover-Effekt haben sollen) */
 .allButFooter .table-hover > tbody > tr:hover {
-    background-color: var(--light-gray) !important;
+    background-color: transparent !important;
 }
 
-/* Farbe: Tabellen Hover (dunkel) */
+/* Farbe: Hover über Tabellen (Die einen Hover-Effekt haben sollen) */
 .allButFooter .table-striped > tbody > tr:not(.printable):hover {
-    background-color: var(--dark-gray) !important;
+    background-color: var(--accent-lowkey-aka-hover) !important;
 }
 
 /* Farbe: Knöpfe */
@@ -81,10 +106,10 @@
 .allButFooter .btn-warning,
 .allButFooter .btn-danger,
 .allButFooter .btn-success {
-    background-color: var(--light-gray) !important;
-    border: 1px solid var(--border-color) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     box-shadow: var(--no-elevation) !important;
-    color: var(--font-color) !important;
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe: Hover über Knöpfe */
@@ -94,7 +119,7 @@
 .allButFooter .btn-warning:hover,
 .allButFooter .btn-danger:hover,
 .allButFooter .btn-success:hover {
-    background-color: var(--dark-gray) !important;
+    background-color: var(--accent-lowkey-aka-hover) !important;
 }
 
 /* Farbe: Normaler Text */
@@ -105,22 +130,28 @@
 .allButFooter h5,
 .allButFooter h6,
 .allButFooter .table,
-.allButFooter small {
-    color: var(--font-color) !important;
+.allButFooter small,
+.allButFooter #content {
+    color: var(--accent-high-aka-text) !important;
+}
+
+/* Farbe: Alle Icons im Dropdown-Menü */
+.allButFooter .dropdown-menu i {
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe, Formatting: Navigation-Tabs, z.B. in "Mein Unterricht" */
 .allButFooter ul.nav.nav-tabs li a {
-    background-color: transparent !important;
-    border: 1px solid var(--border-color) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     border-radius: 3px !important;
     margin-right: 5px !important;
-    color: var(--font-color) !important;
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe: Hover über Navigation-Tabs, z.B. in "Mein Unterricht" */
 .allButFooter ul.nav.nav-tabs li a:hover {
-    background-color: var(--dark-gray) !important;
+    background-color: var(--accent-lowkey-aka-hover) !important;
 }
 
 /* Entfernen: Border unter Navigation-Tabs, z.B. in "Mein Unterricht" */
@@ -131,18 +162,18 @@
 /* Farbe, Formatting: Lade-Banner */
 .allButFooter .container #content #load div {
     margin-top: 11px;
-    background-color: var(--light-gray) !important;
-    color: var(--font-color) !important;
-    border: 1px solid var(--border-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     box-shadow: var(--default-elevation) !important;
 }
 
 /* Entfernen: Footer */
 .allButFooter ~ .hidden-print.footer {
-    background-color: var(--light-gray) !important;
+    background-color: var(--primary-background) !important;
     font-size: 0 ! important;
-    color: var(--light-gray) !important;
-    border-top: 5px solid var(--light-gray) !important;
+    color: var(--primary-background) !important;
+    border-top: 5px solid var(--primary-background) !important;
 }
 
 /* Entfernen: Schulportal-Logo (Footer) */
@@ -152,9 +183,9 @@ body > div.hidden-print.footer > div.row.visible-lg.visible-md > div > table > t
 
 /* Farbe, Formatting: Cookie-Banner */
 .allButFooter ~ .hidden-print.footer ~ .alert.alert-success.alert-dismissible.fade.in {
-    background-color: var(--light-gray) !important;
-    color: var(--font-color) !important;
-    border: 1px solid var(--border-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     border-radius: 4px !important;
     top: calc(100vh - 84px) !important;
     bottom: 0 !important;
@@ -163,18 +194,18 @@ body > div.hidden-print.footer > div.row.visible-lg.visible-md > div > table > t
 
 /* Farbe: Link in Cookie-Banner  */
 .allButFooter ~ .hidden-print.footer ~ .alert.alert-success.alert-dismissible.fade.in a {
-    color: var(--font-link-color) !important;
+    color: var(--usage-secondary) !important;
 }
 
 /* Farbe, Formatting: Button in Cookie-Banner  */
 .allButFooter ~ .hidden-print.footer ~ .alert.alert-success.alert-dismissible.fade.in button {
-    background-color: var(--light-gray) !important;
-    color: var(--font-color) !important;
-    border: 1px solid var(--border-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     padding: 3px 9px !important;
 }
 
 /* Farbe: Hover über Button in Cookie-Banner  */
 .allButFooter ~ .hidden-print.footer ~ .alert.alert-success.alert-dismissible.fade.in button:hover {
-    background-color: var(--dark-gray) !important;
+    background-color: var(--accent-lowkey-aka-hover) !important;
 }

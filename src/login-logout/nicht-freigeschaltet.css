@@ -3,7 +3,7 @@
 .allButFooter #content div.jumbotron ~ div {
     margin-top: 11px;
     box-shadow: var(--default-elevation) !important;
-    background-color: var(--light-gray) !important;
-    border: 1px solid var(--border-color) !important;
-    color: var(--font-color) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    color: var(--accent-high-aka-text) !important;
 }

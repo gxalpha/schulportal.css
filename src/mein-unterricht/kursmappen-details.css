@@ -1,6 +1,6 @@
 /* Elevation, Formatting: Notenübersicht */
 .allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped {
-    border: 1px solid var(--border-color) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     border-radius: 3px !important;
     border-collapse: separate !important;
     box-shadow: var(--default-elevation) !important;
@@ -9,23 +9,23 @@
 /* Farbe: End- und Zwischennoten in Notenübersicht */
 .allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped > tbody > tr.success > td,
 .allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped > tbody > tr.warning > td {
-    background-color: var(--dark-gray) !important;
+    background-color: var(--secondary-background) !important;
 }
 
 /* Farbe: Anhänge in Tabellenelement in "Historie" */
 .allButFooter #old .alert.alert-info {
-    background-color: var(--light-gray) !important;
+    background-color: var(--secondary-background) !important;
     border: none !important;
 }
 
 /* Farbe: Text in Dateiabgabe-Dropdown-Menü in Tabellenelement */
 .allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle small {
-    color: var(--orange-color) !important;
+    color: var(--usage-warning) !important;
 }
 
 /* Farbe: Anhänge Wort und Büroklammer */
 .allButFooter #old > div > table > tbody .alert.alert-info > b {
-    color: var(--font-color) !important;
+    color: var(--accent-high-aka-text) !important;
     font-weight: normal !important;
 }
 
@@ -37,5 +37,5 @@
 /* Formatting: Leere Kursmappe Text */
 .allButFooter #old .alert.alert-info {
     padding: 0 !important;
-    color: var(--font-color) !important;
+    color: var(--accent-high-aka-text) !important;
 }

@@ -12,9 +12,9 @@
 .allButFooter #finalerrorForm.panel.panel-warning,
 .allButFooter #finalblockedForm.panel.panel-warning {
     box-shadow: var(--default-elevation) !important;
-    border: 1px solid var(--border-color) !important;
-    background-color: var(--light-gray) !important;
-    color: var(--font-color) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
 }
 
 /* Farbe: Panel-Köpfe */
@@ -26,7 +26,7 @@
 .allButFooter #finalerrorForm.panel.panel-warning > .panel-heading,
 .allButFooter #finalblockedForm.panel.panel-warning > .panel-heading {
     box-shadow: var(--no-elevation) !important;
-    border-bottom: 1px solid var(--border-color) !important;
-    background-color: var(--light-gray) !important;
-    color: var(--font-color) !important;
+    border-bottom: 1px solid var(--accent-normal-aka-border) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
 }
