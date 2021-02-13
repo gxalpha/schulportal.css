@@ -5,15 +5,15 @@
 
 /* Farbe: Border von Dateiabgabe-Menü in Tabellenelement in "Aktuelle Einträge" und Border von Dateiabgabe-Dropdown-Menü in Tabellenelement in Kursmappen-Details */
 .allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle {
-    color: var(--orange-color) !important;
-    border-color: var(--orange-color) !important;
+    color: var(--usage-warning) !important;
+    border-color: var(--usage-warning) !important;
     z-index: 10 !important;
 }
 
 /* Farbe: Badges in Dateiabgabe-Menü in Tabellenelement in "Aktuelle Einträge" und Badges in Dateiabgabe-Dropdown-Menü in Tabellenelement in Kursmappen-Details */
 .allButFooter .btn-group .btn.btn-warning.btn-sm.dropdown-toggle .badge {
-    color: var(--orange-color) !important;
-    border-color: var(--orange-color) !important;
+    color: var(--usage-warning) !important;
+    border-color: var(--usage-warning) !important;
 }
 
 /* Farbe: Success label -> homework-done-color*/
@@ -25,17 +25,17 @@
 .allButFooter .btn.btn-success.btn-xs,
 .allButFooter .hidden-print.label.label-success,
 .allButFooter .done.label.label-default {
-    background-color: var(--light-gray) !important;
-    border: 1px solid var(--homework-done-color) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--usage-confirm) !important;
     border-radius: 3px !important;
-    color: var(--homework-done-color) !important;
+    color: var(--usage-confirm) !important;
 }
 
 /* Farbe: Info label -> border und schrift */
 .allButFooter #content .row .label.label-info {
-    background-color: var(--light-gray) !important;
-    color: var(--font-color) !important;
-    border: 1px solid var(--border-color) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     border-radius: 3px !important;
 }
 
@@ -43,14 +43,13 @@
 /* 1: Farbe: "Rückgängig-Pfeil"-Knopf in Tabellenelement in "Historie" (Kursübersicht)*/
 /* 2: Farbe: "Hausaufgabe unerledigt"-Label in Tabellenelement in "Historie" (Kursübersicht) */
 /* 3: Farbe: "Hausaufgabe"-Label über Hausaufgaben-Beschreibung im Tabellenelement (Aktuelle Einträge) */
-
 .allButFooter .btn.btn-default.btn-xs,
 .allButFooter .label.label-danger,
 .allButFooter .label.label-success.title {
-    background-color: var(--light-gray) !important;
-    border: 1px solid var(--homework-undone-color) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--usage-remove) !important;
     border-radius: 3px !important;
-    color: var(--homework-undone-color) !important;
+    color: var(--usage-remove) !important;
 }
 
 /* Farbe: Label -> orange color */
@@ -58,8 +57,8 @@
 /* 2: Farbe: "Aktuelle Einträge" -> "als Erledigt markieren" */
 .allButFooter #content .row .label.label-warning,
 .allButFooter #aktuell > table > tbody div > span.undone > span {
-    background-color: var(--light-gray) !important;
-    border: 1px solid var(--orange-color) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--usage-warning) !important;
     border-radius: 3px !important;
-    color: var(--orange-color) !important;
+    color: var(--usage-warning) !important;
 }

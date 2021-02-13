@@ -6,18 +6,18 @@
 
 /* Farbe, Formatting: Hover einzelnen Stunden */
 .allButFooter #content .plan .stunde.active {
-    background-color: var(--dark-gray) !important;
-    border: 1px solid var(--border-color) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
     margin: 1px !important;
     border-radius: 3px !important;
 }
 
 /* Entfernen: Footer */
 .allButFooter > .hidden-print.footer {
-    background-color: var(--light-gray) !important;
+    background-color: var(--primary-background) !important;
     font-size: 0 !important;
-    color: var(--light-gray) !important;
-    border-top: 5px solid var(--light-gray) !important;
+    color: var(--primary-background) !important;
+    border-top: 5px solid var(--primary-background) !important;
 }
 
 /* Entfernen: Schulportal-Logo (Footer) */
