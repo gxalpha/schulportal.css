@@ -89,6 +89,16 @@
     border-color: var(--accent-normal-aka-border) !important;
 }
 
+/* Entfernen: Obere Border des ersten Tabellenelements von Tabellen */
+.allButFooter .table > tbody > tr:first-child > td {
+    border-top: none !important;
+}
+
+/* Formatting: Untere Border von Tabellenköpfen */
+.allButFooter .table > thead > tr > th {
+    border-bottom-width: 1px !important;
+}
+
 /* Farbe: Hover über Tabellen (Die keinen Hover-Effekt haben sollen) */
 .allButFooter .table-hover > tbody > tr:hover {
     background-color: transparent !important;

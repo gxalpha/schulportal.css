@@ -21,11 +21,6 @@
     margin-right: 2px !important;
 }
 
-/* Entfernen: Obere Border des ersten Tabellenelements */
-.allButFooter .tab-content #aktuell tbody > tr:first-child > td {
-    border-top: none !important;
-}
-
 /* Entfernen: Drucken-Knopf in Tabellenelement */
 .allButFooter .btn.btn-default.btn-xs.printable {
     display: none !important;
