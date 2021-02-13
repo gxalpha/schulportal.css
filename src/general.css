@@ -156,6 +156,7 @@
     border: 1px solid var(--accent-normal-aka-border) !important;
     border-radius: 3px !important;
     margin-right: 5px !important;
+    margin-bottom: 6px !important;
     color: var(--accent-high-aka-text) !important;
 }
 
