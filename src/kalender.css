@@ -1,17 +1,63 @@
-/* Farbe: Buttons oben links (Pfeiltasten) */
-/* TODO: FILE NOCH KAPUTT (GEHT EINFACH NICHT...) */
-.allButFooter #calender button.fc-prev-button.fc-button.fc-state-default.fc-corner-left,
-.allButFooter #calender button.fc-next-button.fc-button.fc-state-default.fc-corner-right {
-    border: 1px solid var(--accent-normal-aka-border) !important;
-    border-radius: 3px !important;
-    background-color: var(--secondary-background) !important;
-    color: var(--accent-high-aka-text) !important;
+/* Variablen Kalender */
+:root {
+    --selected-element: var(--neutral-700);
 }
 
-.allButFooter #calender > div.fc-view-container > .fc-view.fc-month-view.fc-basic-view {
+/* Farbe: alle Buttons */
+.allButFooter #calender button {
+    color: var(--accent-high-aka-text) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    border-radius: 3px !important;
+}
+
+/* Farbe: alle Buttons beim Hovern */
+.allButFooter #calender button:hover {
+    color: var(--accent-high-aka-text) !important;
+    background-color: var(--accent-lowkey-aka-hover) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    border-radius: 3px !important
+}
+
+/* Farbe: Buttons oben links (Pfeiltasten) */
+/* TODO: FILE NOCH KAPUTT (GEHT EINFACH NICHT...) */
+/* .allButFooter #calender button.fc-prev-button.fc-button.fc-state-default.fc-corner-left, */
+/* .allButFooter #calender button.fc-next-button.fc-button.fc-state-default.fc-corner-right { */
+    /* border: 1px solid var(--accent-normal-aka-border) !important; */
+    /* border-radius: 3px !important; */
+    /* background-color: var(--secondary-background) !important; */
+    /* color: var(--accent-high-aka-text) !important; */
+/* } */
+
+/* Farbe: Monatstabelle, Wochentabelle */
+.allButFooter #calender > div.fc-view-container > .fc-view.fc-month-view.fc-basic-view,
+.allButFooter #calender > div.fc-view-container > .fc-view.fc-basicWeek-view.fc-basic-view {
     border-radius: 3px !important;
     box-shadow: var(--default-elevation);
     background-color: var(--secondary-background) !important;
-    color: var(--accent-lowkey-aka-hover) !important;
 }
 
+/* Farbe: Hintergrund aktueller Tag (Monatsansicht) */
+.allButFooter #calender > div.fc-view-container td.fc-day.fc-widget-content.fc-sun.fc-today.fc-state-highlight {
+    background-color: var(--selected-element) !important;
+}
+
+/* Formatieren: Überflüssiges Element hinter "Ereignisse" Tab */
+.allButFooter #calender .fc-event-container .fc-day-grid-event {
+    color: var(--accent-high-aka-text) !important;
+    background-color: var(--secondary-background) !important;
+    border: none !important;
+}
+
+/* Farbe: Ereignisse im Kalender */
+.allButFooter #calender .fc-event-container .fc-content {
+    color: var(--accent-high-aka-text) !important;
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    border-radius: 3px !important;
+}
+
+/* Farbe: Ereignisse beim Hovern */
+.allButFooter #calender .fc-event-container .fc-content:hover {
+    background-color: var(--accent-lowkey-aka-hover) !important;
+}
