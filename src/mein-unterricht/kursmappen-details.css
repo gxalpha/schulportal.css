@@ -1,3 +1,12 @@
+/* Farbe, Formatting: Halbjahres-Label neben Kursmappen-Name */
+.allButFooter #content > h1 > small > span.label.label-info {
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    top: -7px !important;
+    position: relative !important;
+}
+
 /* Elevation, Formatting: Notenübersicht */
 .allButFooter #content .col-md-6.col-sm-12.hidden-print .table.table-condensed.table-hover.table-striped {
     border: 1px solid var(--accent-normal-aka-border) !important;
