@@ -38,3 +38,9 @@
     border: 1px solid var(--usage-warning) !important;
     color: var(--usage-warning) !important;
 }
+
+/* Position: Alle Dropdown Menüs von "Aktuelle Einträge" rechtsbündig darstellen */
+.allButFooter #aktuellTable ul.dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+}

@@ -34,6 +34,7 @@
 /* Farbe: Externe Links innerhalb des Contents */
 .allButFooter #content [target="_blank"] {
     color: var(--usage-primary) !important;
+    background-color: transparent !important;
 }
 
 /* TODO (macht button links weiß= -> testen if needed und welcher button */
