@@ -1,26 +1,3 @@
-/* Elevation, Farbe: Warning-Popups */
-.allButFooter #show .alert.alert-warning,
-.allButFooter #show .panel.panel-warning.noeffect {
-    background-color: var(--secondary-background) !important;
-    color: var(--usage-warning) !important;
-    margin-top: 20px !important;
-    border: 1px solid var(--usage-warning) !important;
-    box-shadow: var(--default-elevation) !important;
-}
-
-/* Farbe: Überschrift in Warning-Popups */
-.allButFooter #show .alert.alert-warning h4,
-.allButFooter #show .panel.panel-warning.noeffect h4 {
-    color: var(--usage-warning) !important;
-}
-
-/* Farbe: Header in Warning-Popups */
-.allButFooter #show .panel.panel-warning.noeffect .panel-heading {
-    background-color: var(--secondary-background) !important;
-    color: var(--accent-high-aka-text) !important;
-    border-color: var(--usage-warning) !important;
-}
-
 /* Formatting: Dropdown-Menü-Container */
 .allButFooter #accordion {
     margin-top: 11px !important;
