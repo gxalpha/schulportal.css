@@ -1,0 +1,104 @@
+/* INFO-POPUPS */
+/* Elevation, Farbe: Info-Popups */
+.allButFooter .alert.alert-info,
+.allButFooter .panel.panel-info {
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    margin-top: 20px !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    box-shadow: var(--default-elevation) !important;
+}
+
+/* Farbe: Überschrift in Info-Popups */
+.allButFooter .alert.alert-info h3,
+.allButFooter .panel.panel-info h3,
+.allButFooter .alert.alert-info h4,
+.allButFooter .panel.panel-info h4{
+    color: var(--accent-high-aka-text) !important;
+}
+
+/* Farbe: Header in Info-Popups */
+.allButFooter .panel.panel-info .panel-heading {
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border-color: var(--accent-normal-aka-border) !important;
+}
+
+/* SUCCESS-POPUPS */
+/* Elevation, Farbe: Success-Popups */
+.allButFooter .alert.alert-success,
+.allButFooter .panel.panel-success {
+    background-color: var(--secondary-background) !important;
+    color: var(--usage-confirm) !important;
+    margin-top: 20px !important;
+    border: 1px solid var(--usage-confirm) !important;
+    box-shadow: var(--default-elevation) !important;
+}
+
+/* Farbe: Überschrift in Success-Popups */
+.allButFooter .alert.alert-success h3,
+.allButFooter .panel.panel-success h3,
+.allButFooter .alert.alert-success h4,
+.allButFooter .panel.panel-success h4 {
+    color: var(--usage-confirm) !important;
+}
+
+/* Farbe: Header in Success-Popups */
+.allButFooter .panel.panel-success .panel-heading {
+    background-color: var(--secondary-background) !important;
+    color: var(--usage-confirm) !important;
+    border-color: var(--usage-confirm) !important;
+}
+
+/* WARNING-POPUPS */
+/* Elevation, Farbe: Warning-Popups */
+.allButFooter .alert.alert-warning,
+.allButFooter .panel.panel-warning {
+    background-color: var(--secondary-background) !important;
+    color: var(--usage-warning) !important;
+    margin-top: 20px !important;
+    border: 1px solid var(--usage-warning) !important;
+    box-shadow: var(--default-elevation) !important;
+}
+
+/* Farbe: Überschrift in Warning-Popups */
+.allButFooter .alert.alert-warning h3,
+.allButFooter .panel.panel-warning h3,
+.allButFooter .alert.alert-warning h4,
+.allButFooter .panel.panel-warning h4 {
+    color: var(--usage-warning) !important;
+}
+
+/* Farbe: Header in Warning-Popups */
+.allButFooter .panel.panel-warning .panel-heading {
+    background-color: var(--secondary-background) !important;
+    color: var(--usage-warning) !important;
+    border-color: var(--usage-warning) !important;
+}
+
+/* DANGER-POPUPS */
+/* Elevation, Farbe: Danger-Popups */
+.allButFooter .alert.alert-danger,
+.allButFooter .panel.panel-danger {
+    background-color: var(--secondary-background) !important;
+    color: var(--usage-remove) !important;
+    margin-top: 20px !important;
+    border: 1px solid var(--usage-remove) !important;
+    box-shadow: var(--default-elevation) !important;
+}
+
+/* Farbe: Überschrift in Danger-Popups */
+.allButFooter .alert.alert-danger h3,
+.allButFooter .panel.panel-danger h3,
+.allButFooter .alert.alert-danger h4,
+.allButFooter .panel.panel-danger h4 {
+    color: var(--usage-remove) !important;
+}
+
+/* Farbe: Header in Danger-Popups */
+.allButFooter .panel.panel-danger .panel-heading {
+    background-color: var(--secondary-background) !important;
+    color: var(--usage-remove) !important;
+    border-color: var(--usage-remove) !important;
+}
+
