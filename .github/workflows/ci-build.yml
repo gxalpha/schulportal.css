@@ -25,5 +25,5 @@ jobs:
       - name: Upload the artifact
         uses: actions/upload-artifact@v2
         with:
-          name: schulportal-${{ env.GITHUB_SHORT_SHA }}.css
+          name: schulportal-css-${{ env.GITHUB_SHORT_SHA }}.zip
           path: build
