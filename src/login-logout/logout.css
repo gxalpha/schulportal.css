@@ -9,6 +9,7 @@
 }
 
 /* Formatting: Inhalt von allen Fenster */
+.allButFooter #successForm .panel.panel-success > .panel-heading h3,
 .allButFooter #successForm .panel.panel-success > .panel-heading,
 .allButFooter #successForm .panel.panel-success > .panel-body,
 .allButFooter #successForm .panel.panel-success > .panel-title,
