@@ -24,3 +24,12 @@
 .allButFooter > .hidden-print.footer img {
     object-position: -999999px 999999px !important;
 }
+
+/* Farbe, Formatting: Warning Panel für persönlichen Stundenplan */
+.allButFooter #content #own > .ownPlan .alert.alert-warning {
+    background-color: var(--secondary-background) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    border-radius: 3px !important;
+    color: var(--accent-high-aka-text) !important;
+    box-shadow: var(--default-elevation) !important;
+}
