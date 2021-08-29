@@ -2,7 +2,8 @@ name: CI Build
 
 on:
   push:
-    branches: [ main ]
+  pull_request:
+
 
 jobs:
 
@@ -10,7 +11,8 @@ jobs:
     name: Build project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout project
+        uses: actions/checkout@v2
       - name: Grant build file execute permissions
         run: chmod u+x build.sh
       - name: Set up environment variables
