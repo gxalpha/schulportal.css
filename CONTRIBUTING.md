@@ -10,11 +10,6 @@ Versuche aber, keine Tipp- und Rechtschreibfehler einzubauen :D
 Was auch immer du denkst, das nötig ist. Das Formatieren noch nicht hinzugefügter Seiten, Beheben von Fehlern oder was auch immer du denkst.
 Wir werden die Änderungen dann anschauen und entweder mergen oder eben nicht.
 
-### Commit-Richtlinien
-Unser Ziel ist, dass man auch nach einiger Zeit noch erkennen kann, was ein Commit verändert. Daher folgen wir (etwa) dem [50/72-Standard](http://chris.beams.io/posts/git-commit/) für Commit-Namen und -Beschreibungen.
-
-Wenn du wissen möchtest, wie das funktioniert, ist [hier](https://github.com/obsproject/obs-studio/blob/master/CONTRIBUTING.rst#commit-guidelines) ein Beispiel.
-
 ### Kommentar-Richtlinien
 Ein Kommentar sollte nach folgenden Richtlinien aufgebaut sein:
 ```
