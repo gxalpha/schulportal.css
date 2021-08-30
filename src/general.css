@@ -189,8 +189,13 @@
 }
 
 /* Entfernen: Schulportal-Logo (Footer) */
-body > div.hidden-print.footer > div.row.visible-lg.visible-md > div > table > tbody > tr > td:nth-child(1) > a > img {
+body > div.hidden-print.footer > div.row div > table > tbody > tr > td:nth-child(1) > a > img {
     object-position: -999999px 999999px !important;
+}
+
+/* Entfernen: Margin über Footer, die in manchen Apps (z.B. Schulmoodle) entsteht */
+body > div.hidden-print.footer {
+    margin-top: 0 !important;
 }
 
 /* Farbe, Formatting: Cookie-Banner */

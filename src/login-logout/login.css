@@ -1,5 +1,6 @@
 /* Entfernen: Panel mit Info über vergessene Zugangsdaten */
-.allButFooter .row.transparency .col-md-12 .panel.panel-warning {
+.allButFooter .row.transparency .col-md-12 .panel.panel-warning,
+.allButFooter div#login > div#hint {
     display: none !important;
 }
 
