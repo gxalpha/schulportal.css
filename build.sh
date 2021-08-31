@@ -7,7 +7,7 @@ create_file() {
   sed '\|/|d' schulportal-"$1".css >tempfile && mv tempfile schulportal-"$1".css
   # Removes every empty line
   sed '/^$/d' schulportal-"$1".css >tempfile && mv tempfile schulportal-"$1".css
-  cd ../src
+  cd ../src || exit
 }
 
 mkdir build
