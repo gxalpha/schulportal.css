@@ -22,9 +22,10 @@
 }
 
 /* Farbe: Anhänge in Tabellenelement in "Historie" */
-.allButFooter #old .alert.alert-info {
+.allButFooter #old > div > table > tbody .alert.alert-info {
     background-color: var(--secondary-background) !important;
     border: none !important;
+    box-shadow: var(--no-elevation) !important;
 }
 
 /* Farbe: Text in Dateiabgabe-Dropdown-Menü in Tabellenelement */
@@ -32,19 +33,7 @@
     color: var(--usage-warning) !important;
 }
 
-/* Farbe: Anhänge Wort und Büroklammer */
-.allButFooter #old > div > table > tbody .alert.alert-info > b {
-    color: var(--accent-high-aka-text) !important;
-    font-weight: normal !important;
-}
-
 /* Entfernen: Tabellenkopf */
 .allButFooter #old > div > table > thead {
     display: none !important;
-}
-
-/* Formatting: Leere Kursmappe Text */
-.allButFooter #old .alert.alert-info {
-    padding: 0 !important;
-    color: var(--accent-high-aka-text) !important;
 }
