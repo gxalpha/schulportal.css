@@ -12,8 +12,9 @@
 }
 
 /* Formatting: Einzelnes Dropdown-Panel */
-.allButFooter #accordion .panel-primary.panel {
-    border-color: var(--accent-normal-aka-border) !important;
+.allButFooter #accordion .panel-primary.panel,
+.smenue_panel {
+    border: 1px solid var(--accent-normal-aka-border) !important;
 }
 
 /* Formatting: Einzelnes Dropdown-Panel Body */
@@ -21,8 +22,9 @@
     background-color: var(--secondary-background) !important;
 }
 
-/* Elevation, Farbe: Menü-Items im Dropdown-Panel (mein Unterricht, etc.) */
-.allButFooter #accordion .box {
+/* Elevation, Farbe: Menü-Items im Dropdown-Panel (mein Unterricht, etc.) (Desktop & Mobile) */
+.allButFooter #accordion .box,
+.allButFooter #show .smenue.visible-xs-block div.smallbox {
     background-color: var(--secondary-background) !important;
     box-shadow: var(--no-elevation) !important;
     border: 1px solid var(--accent-normal-aka-border) !important;
@@ -47,7 +49,8 @@
 
 /* Farbe: Alle Bilder im Akkordion */
 .allButFooter #accordion i::before,
-.allButFooter #accordion span::before {
+.allButFooter #accordion span::before,
+.allButFooter #show span.logo > span::before {
     color: var(--accent-high-aka-text) !important;
 }
 
@@ -84,7 +87,8 @@
     display: none !important;
 }
 
-/* Entfernt: Tools-Dropdown-Panel */
-.allButFooter [data-id="Tools"] {
+/* Entfernt: Tools-Dropdown-Panel (Desktop & Mobile) */
+.allButFooter [data-id="Tools"],
+.allButFooter #show .smenue.visible-xs-block > div:nth-child(3) {
     display: none !important;
 }
