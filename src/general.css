@@ -15,6 +15,16 @@
     border-color: var(--accent-high-aka-text) !important;
 }
 
+/* Farbe: Navbar-Dropdown Toggle-Knopf (Mobile) */
+.allButFooter .navbar-toggle {
+    background-color: var(--secondary-background) !important;
+}
+
+/* Farbe: "Icon" im Navbar-Dropdown Toggle-Knopf (Mobile) */
+.allButFooter .navbar-toggle span {
+    background-color: var(--accent-high-aka-text) !important;
+}
+
 /* Entfernen: HvK-Logo */
 .allButFooter .headlogo {
     display: none !important;
