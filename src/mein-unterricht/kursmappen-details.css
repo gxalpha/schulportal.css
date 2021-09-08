@@ -21,8 +21,13 @@
     background-color: var(--secondary-background) !important;
 }
 
-/* Farbe: Anhänge in Tabellenelement in "Historie" */
-.allButFooter #old > div > table > tbody .alert.alert-info {
+/* Farbe: Hintergrund von Liste in "History" (Mobile) */
+.allButFooter #old ul > li {
+    background-color: var(--secondary-background) !important;
+}
+
+/* Farbe, Formatting: Anhänge in Tabellenelement in "Historie" (Desktop & Mobile) */
+.allButFooter #old div.alert.alert-info {
     background-color: var(--secondary-background) !important;
     border: none !important;
     box-shadow: var(--no-elevation) !important;
