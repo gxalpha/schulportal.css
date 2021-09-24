@@ -26,6 +26,12 @@
     background-color: var(--secondary-background) !important;
 }
 
+/* Abstand um die Tabelle herum in "History" (Mobile) */
+.allButFooter #old > ul {
+    margin: 3px !important;
+    margin-top: 0 !important;
+}
+
 /* Farbe, Formatting: Anhänge in Tabellenelement in "Historie" (Desktop & Mobile) */
 .allButFooter #old div.alert.alert-info {
     background-color: var(--secondary-background) !important;
