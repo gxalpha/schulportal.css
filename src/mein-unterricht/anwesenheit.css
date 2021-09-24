@@ -6,7 +6,9 @@
     border-collapse: separate !important;
 }
 
-.allButFooter #anwesend > table > tbody > tr > td > span {
+/* Format, Farbe: Lehrer Name bzw. Kürzel in Tab "Anwesenheit" und Tab "Abwesenheitsmeldungen */
+.allButFooter #anwesend > table > tbody > tr > td > span,
+.allButFooter #abwesend > table > tbody > tr > td > span.label.label-primary{
     background-color: transparent !important;
     color: var(--accent-high-aka-text) !important;
     font-weight: normal !important;
