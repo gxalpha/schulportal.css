@@ -131,7 +131,7 @@
     z-index: 10 !important;
 }
 
-/* Enfernen: Border um gesamten Komplex */
+/* Entfernen: Border um gesamten Komplex */
 .allButFooter #msgs > div > div > p {
     border: none !important;
 }
@@ -140,5 +140,3 @@
 .allButFooter #msgs #deleteIcon {
     color: var(--usage-remove) !important;
 }
-
-
