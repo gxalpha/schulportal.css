@@ -37,6 +37,7 @@
     background-color: var(--secondary-background) !important;
     border: none !important;
     box-shadow: var(--no-elevation) !important;
+    padding: 0 !important;
 }
 
 /* Farbe: Text in Dateiabgabe-Dropdown-Menü in Tabellenelement */
