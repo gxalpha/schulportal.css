@@ -97,6 +97,7 @@
     background-color: var(--secondary-background) !important;
     color: var(--accent-high-aka-text) !important;
     border: 1px solid var(--accent-normal-aka-border) !important;
+    box-shadow: var(--default-elevation);
 }
 
 /* Entfernen: Farbige Kreise hinter Kürzel */
