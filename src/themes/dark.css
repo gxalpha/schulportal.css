@@ -32,3 +32,12 @@
     --accent-normal-aka-border: var(--neutral-400);
     --accent-high-aka-text: var(--neutral-300);
 }
+
+/* Definition der Variablen für den Kalender */
+:root {
+    --calender-selected-day: var(--neutral-700);
+    --calender-event: #407B3E;
+    --calender-event-hover: #51934F;
+    --calender-selected-tab: var(--neutral-800);
+    --calender-today-hover: var(--neutral-600);
+}

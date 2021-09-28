@@ -1,0 +1,154 @@
+/* Farbe: Buttons */
+.allButFooter #calender button {
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    border-radius: 3px !important;
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    background-image: none !important;
+    text-shadow: none !important;
+}
+
+/* Entferne: Border von einzelnen Buttons über dem Kalender */
+.allButFooter #calender > div.fc-toolbar > div.fc-left > div > button.fc-prev-button.fc-button.fc-state-default.fc-corner-left,
+.allButFooter #calender > div.fc-toolbar > div.fc-left > div > button.fc-next-button.fc-button.fc-state-default.fc-corner-right,
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div > button.fc-yearButton-button.fc-button.fc-state-default.fc-corner-left,
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div > button.fc-month-button.fc-button.fc-state-default,
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div > button.fc-basicWeek-button.fc-button.fc-state-default.fc-corner-right {
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+
+/* Hinzufügen: Border von Buttongroups */
+.allButFooter #calender > div.fc-toolbar > div.fc-left > div,
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div,
+.allButFooter #calender > div.fc-toolbar > div.fc-left > button {
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    border-radius: 3px !important;
+    background-color: var(--secondary-background) !important;
+}
+
+/* Selected Element Effekt für alle Buttons */
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div > button.fc-month-button.fc-button.fc-state-default.fc-state-active,
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div > button.fc-yearButton-button.fc-button.fc-state-default.fc-corner-left.fc-state-active,
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div > button.fc-basicWeek-button.fc-button.fc-state-default.fc-corner-right.fc-state-active,
+.allButFooter #calender > div.fc-toolbar > div.fc-left > div > button.fc-prev-button.fc-button.fc-state-default.fc-corner-left.fc-state-hover.fc-state-down,
+.allButFooter #calender > div.fc-toolbar > div.fc-left > div > button.fc-next-button.fc-button.fc-state-default.fc-corner-right.fc-state-hover.fc-state-down {
+    background-color: var(--calender-selected-tab) !important;
+}
+
+/* Hover Effekt für alle Buttons */
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div > button.fc-yearButton-button.fc-button.fc-state-default.fc-corner-left.fc-state-hover,
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div > button.fc-month-button.fc-button.fc-state-default.fc-state-hover,
+.allButFooter #calender > div.fc-toolbar > div.fc-right > div > button.fc-basicWeek-button.fc-button.fc-state-default.fc-corner-right.fc-state-hover,
+.allButFooter #calender > div.fc-toolbar > div.fc-left > div > button.fc-prev-button.fc-button.fc-state-default.fc-corner-left.fc-state-hover,
+.allButFooter #calender > div.fc-toolbar > div.fc-left > div > button.fc-next-button.fc-button.fc-state-default.fc-corner-right.fc-state-hover {
+    background-color: var(--accent-lowkey-aka-hover) !important;
+}
+
+/* Farbe: Monatstabelle, Wochentabelle */
+.allButFooter #calender > div.fc-view-container > .fc-view.fc-month-view.fc-basic-view,
+.allButFooter #calender > div.fc-view-container > .fc-view.fc-basicWeek-view.fc-basic-view {
+    border-radius: 3px !important;
+    box-shadow: var(--default-elevation);
+    background-color: var(--secondary-background) !important;
+}
+
+.allButFooter #calender  td.fc-day.fc-widget-content:hover {
+    background-color: var(--accent-lowkey-aka-hover) !important;
+}
+
+.allButFooter #calender .fc-day.fc-widget-content.fc-today:hover {
+    background-color: var(--calender-today-hover) !important;
+}
+
+
+/* Formatieren: Überflüssiges Element hinter "Ereignisse" Tab */
+.allButFooter #calender .fc-event-container .fc-day-grid-event {
+    color: var(--accent-high-aka-text) !important;
+    background-color: var(--secondary-background) !important;
+    border: none !important;
+}
+
+/* Farbe: Ereignisse im Kalender */
+.allButFooter #calender .fc-event-container .fc-content {
+    color: var(--accent-high-aka-text) !important;
+    background-color: var(--calender-event) !important;
+    border-radius: 3px !important;
+}
+
+/* Farbe: Ereignisse beim Hovern */
+.allButFooter #calender .fc-event-container .fc-content:hover {
+    background-color: var(--calender-event-hover) !important;
+}
+
+/* Entfernen: Filter Symbol entfernen (kein Nutzen) */
+.allButFooter #calendarrow > div.col-md-2.column > div.ansichtenmenue > form.filter.form-inline.hidden-xs > div > div {
+    display: none !important;
+}
+
+/* Anpassen: Kalender Filter Button */
+.allButFooter #kategorie {
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    border-radius: 3px !important;
+    cursor: pointer !important;
+}
+
+/* Farbe: Search Bar */
+.allButFooter #calendarrow > div.col-md-2.column > div.ansichtenmenue > form.suche.form-inline.hidden-xs > div .input-group-addon,
+.allButFooter #calendarrow > div.col-md-2.column > div.ansichtenmenue #search {
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+}
+
+/* Farbe: Zahlen von vergangenem Monat */
+.allButFooter #calender .fc-day-number .fc-past {
+    background-color: transparent !important;
+    color: var(--accent-high-aka-text) !important;
+}
+
+/* Farbe: Hintergrund aktueller Tag */
+.allButFooter #calender .fc-widget-content.fc-today {
+    background-color: var(--calender-selected-day) !important;
+    color: var(--accent-high-aka-text) !important;
+    padding: 1px !important;
+}
+
+/* Anfang: Aktuelles Schuljahr Tab */
+
+/* Entfernen: Alle Borders von den Tabellen -> neues Format benötigt */
+.allButFooter #year > div > div,
+.allButFooter #year > div,
+.allButFooter #year > div > table {
+    background-color: var(--secondary-background) !important;
+    color: var(--accent-high-aka-text) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Hinzufügen: Border um die Tabelle */
+.allButFooter #year > div {
+    border: 1px solid var(--accent-normal-aka-border) !important;
+    border-radius: 3px !important;
+    box-shadow: var(--default-elevation) !important;
+}
+
+/* Devider zwischen Tabellenkopf und Rest der Tabelle */
+.allButFooter #year > div > div {
+    border-bottom: 2px solid var(--accent-normal-aka-border) !important;
+}
+
+/* Formatiere: Arbeiten, Ferien, etc. Label */
+.allButFooter #year > div > table > tbody > tr > td > span {
+    background-color: transparent !important;
+    color: var(--accent-high-aka-text) !important;
+    border-radius: 3px;
+    border: 1px solid var(--accent-normal-aka-border) !important;
+}
+
+/* Ende: Aktuelles Schuljahr Tab */
