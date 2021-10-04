@@ -2,6 +2,8 @@
 /* Elevation, Farbe: Info-Popups und Cards (alle Arten, for now) */
 .allButFooter .alert.alert-info,
 .allButFooter .panel.panel-info,
+.allButFooter .panel.panel-primary,
+.allButFooter .panel.panel-default,
 .allButFooter .card {
     background-color: var(--secondary-background) !important;
     color: var(--accent-high-aka-text) !important;
@@ -13,8 +15,12 @@
 /* Farbe: Überschrift in Info-Popups und Cards */
 .allButFooter .alert.alert-info h3,
 .allButFooter .panel.panel-info h3,
+.allButFooter .panel.panel-primary h3,
+.allButFooter .panel.panel-default h3,
 .allButFooter .alert.alert-info h4,
 .allButFooter .panel.panel-info h4,
+.allButFooter .panel.panel-primary h4,
+.allButFooter .panel.panel-default h4,
 .allButFooter .card > .card-header {
     color: var(--accent-high-aka-text) !important;
     text-transform: inherit !important;
@@ -22,8 +28,10 @@
 
 /* Farbe: Header in Info-Popups und Cards (alle Arten, for now) */
 .allButFooter .panel.panel-info .panel-heading,
+.allButFooter .panel.panel-primary .panel-heading,
+.allButFooter .panel.panel-default .panel-heading,
 .allButFooter .card .card-header {
-    background-color: var(--secondary-background) !important;
+    background-color: transparent !important;
     color: var(--accent-high-aka-text) !important;
     border-color: var(--accent-normal-aka-border) !important;
 }

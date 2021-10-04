@@ -3,23 +3,15 @@
     margin-top: 11px !important;
 }
 
-/* Elevation, Farbe: Große Dropdown-Menüs */
-.allButFooter #accordion .panel-primary,
-.allButFooter #accordion .panel-primary > .panel-heading,
-.allButFooter #accordion .panel-primary > .panel-heading a {
-    background-color: var(--secondary-background) !important;
-    color: var(--accent-high-aka-text) !important;
+/* Formatting: Überschreibe margin-top von großen Dropdown-Menüs */
+.allButFooter #accordion .panel-primary {
+    margin-top: 5px !important;
 }
 
 /* Formatting: Einzelnes Dropdown-Panel */
 .allButFooter #accordion .panel-primary.panel,
 .smenue_panel {
     border: 1px solid var(--accent-normal-aka-border) !important;
-}
-
-/* Formatting: Einzelnes Dropdown-Panel Body */
-.allButFooter #accordion .panel-primary > .panel-body {
-    background-color: var(--secondary-background) !important;
 }
 
 /* Elevation, Farbe: Menü-Items im Dropdown-Panel (mein Unterricht, etc.) (Desktop & Mobile) */

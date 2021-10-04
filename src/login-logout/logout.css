@@ -7,23 +7,6 @@
     color: var(--accent-high-aka-text) !important;
 }
 
-/* Formatting: Inhalt von allen Fenster */
-.allButFooter #successForm .panel.panel-success > .panel-heading h3,
-.allButFooter #successForm .panel.panel-success > .panel-heading,
-.allButFooter #successForm .panel.panel-success > .panel-body,
-.allButFooter #successForm .panel.panel-success > .panel-title,
-.allButFooter #newlogin .panel.panel-default > .panel-heading,
-.allButFooter #newlogin .panel.panel-default > .panel-body,
-.allButFooter #newlogin .panel.panel-default > .panel-title,
-.allButFooter #al .panel.panel-default > .panel-heading,
-.allButFooter #al .panel.panel-default > .panel-body,
-.allButFooter #al .panel.panel-default > .panel-title {
-    box-shadow: var(--no-elevation) !important;
-    border: none !important;
-    background-color: var(--secondary-background) !important;
-    color: var(--accent-high-aka-text) !important;
-}
-
 /* Farbe: Power-Button von oberem Fenster */
 .allButFooter #successForm .fa.fa-power-off.fa-5x {
     color: var(--accent-high-aka-text) !important;
