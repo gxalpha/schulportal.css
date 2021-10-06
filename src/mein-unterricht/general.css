@@ -16,6 +16,11 @@
     border-color: var(--usage-warning) !important;
 }
 
+/* Entfernt: "Kurzanleitungen"-Knopf */
+.allButFooter #content .row a[href="meinunterricht.php?a=usesheets"] {
+    display: none !important;
+}
+
 /* Farbe: Success label -> homework-done-color*/
 /* 1: Farbe:  "Abgabe" -> färbe grün */
 /* 2: Farbe: "Haken"-Knopf in Tabellenelement in "Historie" (Kursübersicht) */
