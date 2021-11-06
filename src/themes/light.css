@@ -1,1 +1,33 @@
-/* Temporäre Platzhalter-Datei, damit build.sh funktioniert. Erstellte CSS-Dateien werden nicht funktionieren. */
+:root {
+    /* Neutrals Palette, skinned down, to be removed */
+    --neutral-800: #454C52;
+    --neutral-700: #596066;
+    --neutral-600: #676E76;
+}
+
+/* Definition der Variablen */
+:root {
+    --usage-primary: #0071BC;
+    --usage-secondary: #BDBDBD;
+    --usage-confirm: #0A9017;
+    --usage-warning: #B27000;
+    --usage-remove: #BF0000;
+    --usage-help: #673AB7;
+
+    --default-elevation: rgba(0, 0, 0, 0.5) 3px 5px 2px;
+    --no-elevation: rgba(0, 0, 0, 0) 0px 0px 0px;
+    --primary-background: #FFFFFF;
+    --secondary-background: #F1F1F1;
+    --accent-lowkey-aka-hover: #BEBEBE;
+    --accent-normal-aka-border: #999999;
+    --accent-high-aka-text: #505050;
+}
+
+/* Definition der Variablen für den Kalender */
+:root {
+    --calender-selected-day: var(--neutral-700);
+    --calender-event: #407B3E;
+    --calender-event-hover: #51934F;
+    --calender-selected-tab: var(--neutral-800);
+    --calender-today-hover: var(--neutral-600);
+}
